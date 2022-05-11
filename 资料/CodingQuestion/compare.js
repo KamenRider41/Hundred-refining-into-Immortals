@@ -5,7 +5,6 @@
  * @LastEditTime: 2022-03-20 18:41:27
  * @Description:
  */
-//评测题目: 2-比较版本号
 /*
 实现一个方法，用于比较两个版本号（version1、version2）
 如果version1 > version2，返回1；
@@ -47,11 +46,6 @@ let a = [
   { v1: "0.1", v2: "1.1.1" },
   { v1: "13.37", v2: "1.2" },
 ]
-// console.log(compareVersion('0.1', '1.1.1'));
-// console.log(compareVersion('13.37', '1.2 '));
-// console.log(compareVersion('1.1', '1.1.0'));
-
 for (let i = 0; i < a.length; i++) {
   console.log(compareVersion(a[i].v1, a[i].v2));
 }
-// console.log('01' > '2');

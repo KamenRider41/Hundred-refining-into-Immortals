@@ -27,10 +27,10 @@ module.exports = {
       '/partDocs/html',
       '/partDocs/css',
       '/partDocs/javascript',
-      '/partDocs/computerNetwork',
-      '/partDocs/networkSafe',
       '/partDocs/vue',
       '/partDocs/react',
+      // '/partDocs/computerNetwork',
+      // '/partDocs/networkSafe',
     ]
   },
   plugins: [
