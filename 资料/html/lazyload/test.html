@@ -1,0 +1,117 @@
+<!--
+ * @Author: 41
+ * @Date: 2022-04-18 09:47:15
+ * @LastEditors: 41
+ * @LastEditTime: 2022-04-18 15:49:28
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <p>今天介绍一下图片懒加载</p>
+  <!-- <img src="./pic/1.png" alt="">
+  <img src="./pic/2.png" alt="">
+  <img src="./pic/3.png" alt="">
+  <img src="./pic/4.png" alt="">
+  <img src="./pic/5.png" alt=""> -->
+  <img data-src="./pic/1.png" alt="">
+  <img data-src="./pic/2.png" alt="">
+  <img data-src="./pic/3.png" alt="">
+  <img data-src="./pic/4.png" alt="">
+  <img data-src="./pic/5.png" alt="">
+  <script>
+    /****************IntersectionObserver方式*******************/
+    const images = document.querySelectorAll('img')
+    // const callback = (entries) => {
+    //   entries.forEach(entry => {
+    //     if (entry.isIntersecting) {            // 监听到出现
+    //       const image = entry.target           // 获取目标
+    //       image.setAttribute('src', image.getAttribute('data-src'))
+    //       observer.unobserve(image)            // 取消监听
+    //       console.log('触发');
+    //     }
+    //   })
+    // }
+    // const observer = new IntersectionObserver(callback)
+    // images.forEach(image => {
+    //   observer.observe(image)
+    // })
+    /*********************节流方式*******************/
+    /*********************比较方式1*******************/
+    let n = 0
+    let lazyload = (e) => {
+      for (let i = n; i < images.length; i++) {
+        const imageTop = images[i].getBoundingClientRect().top
+        if (imageTop < window.innerHeight) {
+          images[i].setAttribute('src', images[i].getAttribute('data-src'))
+          n = i + 1
+        }
+      }
+      console.log('scroll触发');
+    }
+    /*********************比较方式2*******************/
+    let lazyload2 = (e) => {
+      const clientHeight = document.documentElement.clientHeight
+      const scrollTop = document.documentElement.scrollTop
+      for (let i = n; i < images.length; i++) {
+        if (images[i].offsetTop < clientHeight + scrollTop) {
+          console.log(images[i].getAttribute('src'));
+          images[i].setAttribute('src', images[i].getAttribute('data-src'))
+          n = i + 1
+        }
+      }
+      console.log('scroll触发');
+    }
+    /**
+     * @description: 节流函数
+     * @param1 {*}
+     * @return {*}
+     * @detail: 
+     * @param {*} fn
+     * @param {*} delay
+     */
+    function throttle (fn, delay) {
+      let pre = 0
+      let timer
+      return function () {
+        if (!pre) pre = new Date()
+        let now = new Date()
+        let context = this
+        let args = arguments
+        let remainTime = delay - (now - pre)
+        if (now - pre > delay) {
+          fn.apply(context, args)
+          pre = now
+        } else {
+          if (timer) return
+          timer = setTimeout(() => {
+            fn.apply(context, args)
+            pre = now
+            timer = null
+          }, remainTime)
+        }
+      }
+    }
+    window.onscroll = throttle(lazyload, 1000) // 使用节流函数优化
+    // window.onscroll = lazyload // 使用节流函数优化
+    lazyload()                                 // 首次调用，第一次打开无法启动监听scroll事件
+  </script>
+</body>
+
+</html>

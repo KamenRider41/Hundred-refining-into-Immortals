@@ -1,0 +1,51 @@
+<!--
+ * @Author: 41
+ * @Date: 2022-03-13 17:31:09
+ * @LastEditors: 41
+ * @LastEditTime: 2022-03-13 17:33:21
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* box 用来控制宽度 */
+    .box {
+      width: 50%;
+    }
+
+    .scale {
+      width: 100%;
+      height: 56.25%;
+      /* scale 用来实现宽高等比例 1:1 padding-bottom:100%; 4:3 padding-bottom:75%; 16:9 padding-bottom:56.25%; */
+      padding-bottom: 56.25%;
+      position: relative;
+      background-color: pink;
+    }
+
+    .box .scale .item {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="scale">
+      <!-- <div class="item">
+        <img src="">
+      </div> -->
+    </div>
+  </div>
+
+</body>
+
+</html>

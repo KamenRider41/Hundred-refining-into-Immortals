@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  height: 500px;
+
+}
+
+img {
+  width: 90%;
+  height: 90%;
+  margin: 5px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.bo,
+.bo2,
+.bo3,
+.bo4,
+.bo5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transition: 1s;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.canvas {
+  position: absolute;
+  top: 60vh;
+  left: 10vw;
+  width: 80vw;
+  height: 200px;
+  transition: 1s;
+  transform: rotate(180deg);
+}
+.canvas2{
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  width: 30vw;
+  height: 30vh;
+  transition: 1s;
+  /* border: 1px solid red; */
+  opacity: 0.3;
+}
+.canvas3{
+  position: absolute;
+  top: 20vh;
+  right: 10vw;
+  width: 30vw;
+  height: 30vh;
+  transition: 1s;
+  /* border: 1px solid red; */
+  opacity: 0.3;
+}

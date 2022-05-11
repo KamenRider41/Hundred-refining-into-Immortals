@@ -1,0 +1,23 @@
+{
+  "name": "facepractice",
+  "version": "1.0.0",
+  "description": "#### Description 备战2023秋招，一个及其私密的前端面试备战仓库！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/KamenRider41/front-end-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.6.0",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "vuepress": "^1.9.7"
+  }
+}

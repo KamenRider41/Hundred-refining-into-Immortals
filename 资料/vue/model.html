@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>forvue</title>
+</head>
+
+<body>
+  <input type="text" id="textInput">
+  输入：<span id="textSpan"></span>
+  <script>
+    var obj = {},
+      textInput = document.querySelector('#textInput'),
+      textSpan = document.querySelector('#textSpan');
+
+    Object.defineProperty(obj, 'foo', {
+      set: function (newValue) {
+        textInput.value = newValue;
+        textSpan.innerHTML = newValue;
+      }
+    });
+
+    textInput.addEventListener('keyup', function (e) {
+      obj.foo = e.target.value;
+    });
+
+  </script>
+</body>
+
+</html>

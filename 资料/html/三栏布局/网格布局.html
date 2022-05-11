@@ -1,0 +1,48 @@
+<!--
+ * @Author: 41
+ * @Date: 2022-03-04 14:08:15
+ * @LastEditors: 41
+ * @LastEditTime: 2022-05-11 15:17:27
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 100%;
+      display: grid;
+      height: 100px;
+      /* grid-template-rows: 50px 200px 50px; */
+      grid-template-columns: 200px auto 200px;
+      /* grid-template-columns: 200px; */
+    }
+
+    .main {
+      background-color: skyblue;
+    }
+
+    .left {
+      background-color: red;
+    }
+
+    .right {
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="left"></div>
+    <div class="main"></div>
+    <div class="right"></div>
+  </div>
+</body>
+
+</html>
