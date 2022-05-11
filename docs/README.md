@@ -1,8 +1,10 @@
 # 写在前面
 ::: tip
+
 备战2023秋招:smiling_imp:，一个及其私密的前端面试备战仓库！:star:
 
 作者是一名HNU的研二学生 :smirk::smirk::smirk:
+
 :::
 
 
@@ -57,6 +59,6 @@
 
 
 <div style="margin:20px;">
-  <img src='/docs/.vuepress/public/weixin.jpg' style="width:300px;height:320px;margin:10px;">
-  <img src='/docs/.vuepress/public/zhifubao.jpg' style="width:300px;height:320px;margin:10px;">
+  <img src='/Hundred-refining-into-Immortals/weixin.jpg' style="width:300px;height:320px;margin:10px;">
+  <img src='/Hundred-refining-into-Immortals/zhifubao.jpg' style="width:300px;height:320px;margin:10px;">
 </div>

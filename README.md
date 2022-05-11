@@ -1,8 +1,11 @@
 # 写在前面
 ::: tip
+
 备战2023秋招:smiling_imp:，一个及其私密的前端面试备战仓库！:star:
 
 作者是一名HNU的研二学生 :smirk::smirk::smirk:
+
+[部署地址](https://kamenrider41.github.io/Hundred-refining-into-Immortals/)
 :::
 
 
