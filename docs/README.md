@@ -1,10 +1,10 @@
 # 写在前面
-
+::: tip
 备战2023秋招:smiling_imp:，一个及其私密的前端面试备战仓库！:star:
 
 作者是一名HNU的研二学生 :smirk::smirk::smirk:
+:::
 
-***
 
 正值青春年华，不巧碰上22年互联网寒冬:interrobang:,找实习太难了:disappointed_relieved::disappointed_relieved::disappointed_relieved:！
 
@@ -48,3 +48,15 @@
   - Webpack
   - 计算机网络
   - 网络安全
+
+
+### 老板糊涂阿！:+1::+1::+1:
+::: danger
+*未成年人请不要打赏！*
+:::
+
+
+<div style="margin:20px;">
+  <img src='/docs/.vuepress/public/weixin.jpg' style="width:300px;height:320px;margin:10px;">
+  <img src='/docs/.vuepress/public/zhifubao.jpg' style="width:300px;height:320px;margin:10px;">
+</div>
