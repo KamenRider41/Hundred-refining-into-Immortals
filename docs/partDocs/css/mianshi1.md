@@ -1,15 +1,5 @@
----
-  sidebarDepth: 3
----
-
-# CSS
-::: tip
-`CSS`作为前端基础三项之力的颜值担当,是必须要掌握的！:star:
-:::
-
-
-## 面试题一 :star:
-### 1.css垂直居中有哪些实现方式？
+# 面试题一 :star:
+## 1.css垂直居中有哪些实现方式？
 ::: details 点击查看答案
 - 1.relative+absolute+left+top+translate
 - 2.relative+absolute+0000+margin:auto
@@ -21,7 +11,7 @@
 :::
 
 
-### 2.怎么让CSS flex布局最后一行列表左对齐？
+## 2.怎么让CSS flex布局最后一行列表左对齐？
 ::: details 点击查看答案
 - 1.模拟space-between和间隙
 ```css
@@ -95,7 +85,7 @@
 :::
 
 
-### 3.相邻的两个inline-block节点为什么会出现间隔，该如何解决？
+## 3.相邻的两个inline-block节点为什么会出现间隔，该如何解决？
 ::: details 点击查看答案
 同样地 我们使用CSS更改非inline-block水平元素为inline-block水平，也会有该问题：
 
@@ -159,7 +149,7 @@
 :::
 
 
-### 4.display有哪些取值？
+## 4.display有哪些取值？
 ::: details 点击查看答案
 display属性可以设置元素的内部和外部显示类型。
 - 元素的外部显示类型将决定该元素在流式布局中的表现(块级或内联元素)
@@ -189,7 +179,7 @@ grid真的太优雅了！
 :::
 
 
-### 5.如何从html元素继承box-sizing？
+## 5.如何从html元素继承box-sizing？
 ::: details 点击查看答案
 在大多数情况下我们在设置元素的border和padding并不希望改变元素的width,height值，这个时候我们就可以为该元素设置`box-sizing:border-box;`
 ```CSS
@@ -203,7 +193,7 @@ html {
 :::
 
 
-### 6.说说你对盒子模型的理解？
+## 6.说说你对盒子模型的理解？
 ::: details 点击查看答案
 一个盒子由四个部分组成:content，padding，border，margin
 `box-sizing: content-box|border-box|inherit;`
@@ -211,7 +201,7 @@ html {
 :::
 
 
-### 7.css选择器有哪些？优先级分别是什么？哪些属性可以继承？
+## 7.css选择器有哪些？优先级分别是什么？哪些属性可以继承？
 ::: details 点击查看答案
 - 常用选择器有：
 ```
@@ -272,7 +262,7 @@ html {
 :::
 
 
-### 8.em/px/rem/vh/vw这些单位有什么区别？
+## 8.em/px/rem/vh/vw这些单位有什么区别？
 ::: details 点击查看答案
 传统的项目开发中，我们只会用到px、%、em这几个单位，它可以适用于大部分的项目开发，且拥有比较良好的兼容性
 
@@ -287,9 +277,9 @@ html {
 :::
 
 
-### 9.设备像素，css像素，设备独立像素，dpr，ppi之间有什么区别？
+## 9.设备像素，css像素，设备独立像素，dpr，ppi之间有什么区别？
 ::: details 点击查看答案
-#### 背景
+### 背景
 在css中我们通常使用px作为单位，在PC浏览器中css的1个像素都是对应着电脑屏幕的1个物理像素
 
 这会造成一种错觉，我们会认为css中的像素就是设备的物理像素
@@ -297,30 +287,30 @@ html {
 但实际情况却并非如此，css中的像素只是一个抽象的单位，在不同的设备或不同的环境中，css中的1px所代表的设备物理像素是不同的
 
 当我们做移动端开发时，同为1px的设置，在不同分辨率的移动设备上显示效果却有很大差异
-#### 介绍
+### 介绍
 
-##### css像素
+#### css像素
 一般情况，页面缩放比为1，1个CSS像素等于1个设备独立像素
 - 每英寸像素（PPI）
 - 设备像素比（DPR）
 
-##### 设备像素
+#### 设备像素
 设备像素（device pixels），又称为物理像素
 
 指设备能控制显示的最小物理单位，不一定是一个小正方形区块，也没有标准的宽高，只是用于显示丰富色彩的一个“点”而已
 
 可以参考公园里的景观变色彩灯，一个彩灯(物理像素)由红、蓝、绿小灯组成，三盏小灯不同的亮度混合出各种色彩
 
-##### 设备独立像素
+#### 设备独立像素
 在javaScript中可以通过`window.screen.width`/ `window.screen.height `查看
 
-#### dpr=设备像素/设备独立像素
-#### ppi，每英寸像素，表示每英寸所包含的像素点数目
+### dpr=设备像素/设备独立像素
+### ppi，每英寸像素，表示每英寸所包含的像素点数目
 ppi=sqrt(pow(x,2)+pow(y,2))/屏幕尺寸
 :::
 
 
-### 10.css隐藏页面元素
+## 10.css隐藏页面元素
 ::: details 点击查看答案
 - display:none
 - visibility:hidden
@@ -330,108 +320,3 @@ ppi=sqrt(pow(x,2)+pow(y,2))/屏幕尺寸
 - clip-path: polygon(0px 0px,0px 0px,0px 0px,0px 0px);
 :::
 
-
-## 面试题二 :star:
-### 1.使用css3实现动画？
-::: details 点击查看答案
-- transition 实现渐变动画
-- transform 转变动画
-- animation 实现自定义动画
-:::
-
-
-### 2.怎么理解回流和重绘？什么场景下触发？
-::: details 点击查看答案
-- 回流:布局引擎会根据各种样式计算每个盒子在页面上的大小与位置
-- 重绘:当计算好盒模型的位置，大小及其他属性后，浏览器根据每个盒子特性进行绘制
-***
-- 解析HTML，生成DOM树，解析CSS，胜场CSSOM树
-- 将DOM树和CSSOM树结合，生成渲染树(render tree)
-- layout(回流):根据生成的渲染树，进行回流layout，得到节点的几何信息(位置，大小)
-- painting(重绘):根据渲染树以及回流得到的几何信息，得到节点的绝对像素
-- Display:将像素发送给GPU，展示在页面上
-:::
-
-
-### 3.css性能优化？
-::: details 点击查看答案
-- 内联首屏关键css
-- 异步加载css
-  - 使用javascript将link标签插到head标签最后
-  - 设置link标签media属性为noexis，浏览器会认为当前样式表不适用当前类型,会在不阻塞页面情况下下载，加载完成后，将media的值设为screen或all，从而让历览器开始解析css
-  - 通过rel属性将link元素标记为alternate可选样式表，也能实现浏览器异步加载。同样别忘了加载完成之后，将rel设回stylesheet
-- 资源压缩
-  - webpack等，将css代码进行压缩
-- 合理使用选择器
-- 减少使用昂贵的属性(box-shadow,border-radius,filter,:nth-child)
-- 不要使用@import
-
-- 减少重排重绘
-- 避免重复编写
-- 小icon图转成base64编码
-- 过渡尽量使用transform和opacity来完成
-:::
-
-
-### 4.css3新增特性？
-::: details 点击查看答案
-- 新增伪类选择器
-- box-shadow，border-radius，border-image
-- background-clip,background-origin，background-size
-- word-wrap，text-shadow，text-decoration
-- rgba，hala
-- transition
-- transform
-- animation
-- linear-gradient
-- flex，grid
-:::
-
-
-### 5.css预编语言，区别？
-::: details 点击查看答案
-- sass less stylus
-:::
-
-
-### 6.display:none,visibility:hidden,opactiy:0 的区别
-::: details 点击查看答案
-- 1.display不占据空间，后者会占据
-- 2.子元素继承，前者不继承，后者会继承
-- 3.事件绑定，前端无法触发，后面可以触发
-- 4.过渡动画，opacity有效
-:::
-
-
-### 7.position有什么属性？fixed和absolute区别
-::: details 点击查看答案
-- position属性
-  - static
-  - relative
-  - absolute
-  - fixed
-  - center(css3)
-  - page(css3)
-  - sticky(css3)：relative+fixed
-- 区别
-  - 相对定位的元素不同：absolute是相对于离它最近的有定位的父元素进行定位（如果没有定位的父元素则相对于浏览器窗口）；fixed是相对于浏览器窗口定位
-  - 在有滚动条的页面中，absolute会跟随页面滑动，fixed不会滑动，始终固定在同一位置
-:::
-
-
-### 8.BFC如何形成？BFC 与 IFC 的区别
-::: details 点击查看答案
-- `块级格式化上下文`如果元素想触发BFC的话，会让元素形成一个独立的区域，不会收到外界的干扰，并且也不会影响到外部的情况就会形成一个BFC
-  - 1.使用浮动
-  - 2.使用绝对定位和固定定位
-  - 3.overflow:hidden
-- `内联格式化上下文`当display设置为inline-block的时候会产生一个IFC.
-  - 主要影响IFC内布局的CSS属性:
-    - 1.font-size
-    - 2.line-height
-    - 3.height
-    - 4.vertical-align
-- 区别
-  - 在BFC中只会包含块级元素，在IFC中只会包含行内元素。
-  - BFC内部的块级元素会在垂直方向，一个接一个地放置；IFC里行内元素是一个接一个从顶部水平放置。
-:::

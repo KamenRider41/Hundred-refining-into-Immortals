@@ -1,5 +1,5 @@
 # 写在前面
-::: tip
+::: tip 我是一只小菜鸟
 
 备战2023秋招:smiling_imp:，一个及其私密的前端面试备战仓库！:star:
 
@@ -18,16 +18,18 @@
 
 也非常欢迎大家来仓库提PR！:star::star::star:
 ### 目录:star:
-- HTML
-  - 三栏布局 :star:
-  - 面试题一 
-  - 面试题二 
-  - 面试题三 
-  - 面试题四 
-- CSS
-  - 面试题一 
-  - 面试题二 
-- Javascript
+- HTML :exclamation:
+  - 写在前面
+  - HTML面试题一 
+  - HTML面试题二 
+  - HTML面试题三 
+  - HTML面试题四 
+- CSS :exclamation:
+  - 写在前面
+  - CSS面试题一 
+  - CSS面试题二 
+- Javascript :exclamation:
+  - 写在前面
   - 手撕Javascript :star:
   - ES6 :star:  
   - ES7 
@@ -35,21 +37,23 @@
   - ES9 
   - ES10 
   - ES11 
-  - 面试题一 
-  - 面试题二 
-- Vue
-  - 面试题一 
-  - 面试题二 
-  - 面试题三
-  - 面试题四
-- React快速入门 :star:
-  - ...
+  - Javascript面试题一 
+  - Javascript面试题二 
+- Vue :exclamation:
+  - 写在前面
+  - Vue面试题一 
+  - Vue面试题二 
+  - Vue面试题三
+  - Vue面试题四
+- React :exclamation:
+  - 写在前面
+  - React快速入门 :star:
 ***
 - 之后会补充
-  - React
-  - Webpack
-  - 计算机网络
-  - 网络安全
+  - Webpack :question:
+  - 计算机网络 :question:
+  - 网络安全 :question:
+  - 面经 :question:
 
 
 ### 老板糊涂阿！:+1::+1::+1:

@@ -1,15 +1,6 @@
----
-  sidebarDepth: 3
----
+# 手撕Javascript :star:
 
-# Javascript
-::: tip
-`Javascript`作为前端基础三项之力的灵魂,肯定是面试考察的重点:star:
-:::
-
-## 手撕Javascript :star:
-
-### 大数相加
+## 大数相加
 ::: details 点击查看代码
 ```js
 /*
@@ -95,7 +86,7 @@ function myadd (num1, num2) {
 
 ```
 :::
-### LRU
+## LRU
 ::: details 点击查看代码
 ```js
 /*
@@ -147,7 +138,7 @@ LRUCache.prototype.put = function (key, value) {
 
 ```
 :::
-### 比较版本号
+## 比较版本号
 ::: details 点击查看代码
 ```js
 /*
@@ -203,7 +194,7 @@ for (let i = 0; i < a.length; i++) {
 }
 ```
 :::
-### 数字中1的个数
+## 数字中1的个数
 ::: details 点击查看代码
 ```js
 /*
@@ -291,7 +282,7 @@ function reducedeal (num) {
 
 ```
 :::
-### 不用循环输出0到n-1的数
+## 不用循环输出0到n-1的数
 ::: details 点击查看代码
 ```js
 /*
@@ -367,7 +358,7 @@ function deal3 (x) {
 
 ```
 :::
-### 单词统计
+## 单词统计
 ::: details 点击查看代码
 ```js
 /*
@@ -396,7 +387,7 @@ count('Age has reached the end of the beginning of a word')
 
 ```
 :::
-### Fib数列
+## Fib数列
 ::: details 点击查看代码
 ```js
 /*
@@ -421,7 +412,7 @@ let res = fib(10)
 console.log(res);
 ```
 :::
-### 全排列
+## 全排列
 ::: details 点击查看代码
 ```js
 /*
@@ -454,7 +445,7 @@ let nums = [1, 2, 3]
 console.log(permute(nums));
 ```
 :::
-### 生成树
+## 生成树
 ::: details 点击查看代码
 ```js
 /*
@@ -498,7 +489,7 @@ function path (strarr) {
 // };
 ```
 :::
-### 快速排序
+## 快速排序
 ::: details 点击查看代码
 ```js
 /*
@@ -561,7 +552,7 @@ function partition (arr, left, right) {
 }
 ```
 :::
-### 千分位分割
+## 千分位分割
 ::: details 点击查看代码
 ```js
 /*
@@ -598,7 +589,7 @@ for (let i = 0; i < num.length; i++) {
 }
 ```
 :::
-### 隔一秒输出数字
+## 隔一秒输出数字
 ::: details 点击查看代码
 ```js
 /*
@@ -632,7 +623,7 @@ for (let i = 0; i < 3; i++) {
 
 ```
 :::
-### 柯里化
+## 柯里化
 ::: details 点击查看代码
 ```js
 /*
@@ -693,7 +684,7 @@ const res = add(1)(2)(3)(4)(5).toString()
 console.log(res);
 ```
 :::
-### ObjFlat拍平
+## ObjFlat拍平
 ::: details 点击查看代码
 ```js
 /*
@@ -743,7 +734,7 @@ function myFlat (obj) {
 
 ```
 :::
-### lodashGet
+## lodashGet
 ::: details 点击查看代码
 ```js
 /*
@@ -772,7 +763,7 @@ var object = { 'a': [{ 'b': { 'c': 3 } }] };
 console.log(get(object, 'a[0].b.c'));
 ```
 :::
-### DeepClone
+## DeepClone
 ::: details 点击查看代码
 ```js
 /*
@@ -815,7 +806,7 @@ obj.haha.name = 5
 console.log(obj, newobj);
 ```
 :::
-### 手写reduce
+## 手写reduce
 ::: details 点击查看代码
 ```js
 /*
@@ -853,7 +844,7 @@ console.log(result);
 
 ```
 :::
-### 手写repeat
+## 手写repeat
 ::: details 点击查看代码
 ```js
 /*
@@ -896,7 +887,7 @@ function repeat3 (target, n) {
 
 ```
 :::
-### 手写Promise
+## 手写Promise
 ::: details 点击查看代码
 ```js
 /*
@@ -980,7 +971,7 @@ commitment.then(
 
 ```
 :::
-### 手写Promise.all
+## 手写Promise.all
 ::: details 点击查看代码
 ```js
 /*
@@ -1025,686 +1016,3 @@ Promise.myAll = function (promiseArr) {
 
 
 
-
-## ES6 :star:
-`ES6`给了`javascript`注入了不一样的活力。以至于，我们将后面的`ES7-ES11`都统称为`ES6`
-
-- 那么为什么要学习ES6新特性？
-    - 1.语法简洁，功能丰富
-    - 2.框架开发应用
-    - 3.前端开发职位要求
-    
-
-今天就和大家一起康康ES6-ES11到底都有哪些改变！
-
-学完之后你就会觉得自己很勇，写代码会有飞一样的感觉！
-
-***
-有写的不对的欢迎大佬们批评指正！
-***
-
-### let变量声明
-- 1.变量不能重复声明
-- 2.块级作用域，全局，函数，eval
-- 3.不存在变量提升
-- 4.不影响作用域链
-
-```javascript
-let arr=[1,2,3]
-for(let i=0;i<arr.length;i++){
-	console.log(i)
-}// 1,2,3
-
-for(var i=0;i<arr.length;i++){
-	console.log(i)
-}//4,4,4
-```
-### const声明常量
-- 1.一定要赋初始值
-- 2.一般常量使用大写
-- 3.常量的值不能修改
-- 4.块级作用域
-- 5.对于数组和对象的元素修改，不算做对常量的修改，不会报错
-
-### 模板字符串
-- 1.内容中可以直接出现换行符
-
-```javascript
-let str=`<ul>
-	<li>1</li>
-	<li>2</li>
-	<li>3</li>
-</ul>`
-```
-- 2.变量拼接
-
-```javascript
-let day='星期四'
-let out=`今天是${day}`
-console.log(out)
-```
-### 对象的简化
-
-```javascript
-let name='41'
-let change=function(){
-	console.log('我们可以改变你！！')
-}
-const school={
-	name,
-	change,
-	improve(){
-  		console.log('提高技能')
-	}
-}
-```
-### 箭头函数
-
-```javascript
-let fn=(a,b)=>{
-	return a+b
-}
-```
-- 1.this是静态的，this始终指向函数声明时所在作用域下的this的值
-
-```javascript
-function getName(){
-	console.log(this.name)
-}
-let getName2=()=>{
-	console.log(this.name)
-}
-window.name='41'
-const school={
-	name:'42'
-}
-getName.call(school)
-getName2.call(school)
-
-// 42 41
-```
-- 2.不能作为构造实例化对象
-- 3.不能使用arguments变量
-- 4.箭头函数简写，形参只有一个的时候可以省略小括号
-
-### 函数参数的默认值
-- 1.形参初始值，具有默认值的参数，一般位置要靠后(潜规则)
-### rest参数
-
-```javascript
-function fn(a,b,...args){
-	console.log(a)
-	console.log(b)
-	console.log(args)
-}
-fn(1,2,3,4,5,6)
-```
-### 扩展运算符
-- `...`扩展运算符能将数组转换为逗号分隔的参数序列
-### Symbol
-- 创建Symbol`let s=Symbol('41')`
-- Symbol.for 创建 `let s2=Symbol.for('41')`
-
-前者无论如何不会===，后者数值相等可以返回true
-
-- 不能与其他数据进行运算
-- ES6还提供了11个内置的Symbol值，实际项目很少用到，这里不多介绍了
-### 迭代器
-迭代器时一种接口，为各种不同的数据结构提供统一的访问机制。任何数据结构只要部署iterator接口，就可以完成遍历操作。
-- 使用`for...of`遍历数组(类似链表)
-
-### 生成器
-- 生成器其实就是一个特殊的函数
-- 异步编程，纯回调函数，node fs ajax mongodb
-- 函数代码的分隔符
-
-```javascript
-function *gen(){
-	console.log(111)
-	yield '一只没有耳朵'
-	console.log(222)
-	yield '一只没有尾巴'
-	console.log(333)
-	yield '真奇怪'
-	console.log(444)
-}
-let iterator =gen()
-iterator.next()
-iterator.next()
-iterator.next()
-iterator.next()
-// 111 222 333 444
-
-
-// 遍历
-for(let v of gen()){
-	console.log(v)
-}
-// 一只没有耳朵 一只没有尾巴 真奇怪
-```
-### Promise
-Promise时ES6引入的异步编程的新解决方案。语法上Promise是一个构造函数，用来封装异步操作并可以获取其成功或失败的结果。
-
-
-### 集合Set()
-ES6提供了新的数据结构Set，它类似于数组，但成员的值都是唯一的，集合实现了iterator接口，所以可以使用`扩展运算符`和`for..of`进行遍历
-
-|属性和方法|作用  |
-|--|--|
-|size  |返回集合的元素个数  |
-|add  | 添加一个新元素，返回当前集合 |
-|delete  | 删除元素，返回boolean值 |
-|has  |检测集合中是否包含某个元素，返回boolean值  |
-
-### Map()
-ES6提供了Map数据结构。它类似于对象，也是键值对的集合。但键的范围不限于字符串，各种类型的值(包括对象)都可以当作键。Map也实现了iterator接口，所以可以使用`扩展运算符`和`for..of`进行遍历
-|属性和方法|作用  |
-|--|--|
-|size  |返回Map集合的元素个数  |
-|set |添加一个新元素，返回当前Map  |
-| get |返回键名对象的键值  |
-|has  |检测Map中是否包含某个元素，返回boolean值  |
-| clear |清空Map，返回undefined  |
-
-### class类
-ES6提供了更接近传统语言的写法，引入Class(类)这个概念，作为对象的模板，通过class关键字，可以定义类。基本上，ES6的class可以看作只是一个语法糖，它的绝大部分功能，ES5都可以做到，新的class写法只是让对象原型的写法更加清晰，更像面向对象的语法而已
-### 数值扩展
-- 最小精度`Number.EPSILON`
-- 检测一个数值是否为有限数`Number.isFinite()`
-- 是否为NaN`Number.isNaN()`
-- 字符串转整数浮点数 `Number.parseInt() Number.paerseFloat()`
-### 对象方法扩展
-- 判断两个值是否完全相等`Object.is()`
-- 对象和合并`Object.assign()`
-- 设置原型对象`Object.setPrototypeof`
-
-
-### 模块化
-模块化是指将一个大的程序文件，拆分成许多小的文件，然后将小文件组合起来。
-- 防止命名冲突
-- 代码复用
-- 高维护性
-- ES6之前的模块化规范有
-
-|规范|  |
-|--|--|
-|CommonJS  | NodeJS，Browserify |
-|AMD  | requireJS |
-|CMD  |seaJS  |
-
-简单来说就是`export import`
-
-## ES7 :star:
-### Array.prototype.includes
-`includes`方法用来检测数组中是否包含某个元素，返回布尔类型值
-
-```js
-console.log([1, 2, 3].includes(2));     // true
-console.log([1, 2, 3].includes(4));     // false
-console.log([1, 2, 3].includes(3, 3));  // false
-console.log([1, 2, 3].includes(3, -1)); // true
-console.log([1, 2, NaN].includes(NaN)); // true
-```
-***
-`includes() `方法有意设计为通用方法。它不要求this值是数组对象，所以它可以被用于其他类型的对象 (比如类数组对象)。下面的例子展示了 在函数的 `arguments` 对象上调用的 `includes()` 方法。
-```js
-(function() {
-  console.log([].includes.call(arguments, 'a')); // true
-  console.log([].includes.call(arguments, 'd')); // false
-})('a','b','c');
-```
-### 幂运算**
-```js
-console.log(2**10)
-```
-## ES8 :star:
-### async和await
-async和await了两种语法结合可以让异步代码像同步代码一样
-#### async函数
-- `async`函数的返回值为`promise`对象
-- `promise`对象的结果由`async`函数执行的返回值决定
-#### await表达式
-- `await`必须写在`async`函数中
-- `await`右侧的表达式一般为`promise`对象
-- `await`返回的是`promise`成功的值
-- `await`的`promise`失败了，就会抛出异常，需要通过`try...catch`捕获处理
-
-### Object.values,keys和Object.entries
-- 1.`Object.values()`方法返回一个给定对象的所有可枚举属性值的数组
-(`keys`同理，返回的是键名)
-```js
-var obj = { 0: 'a', 1: 'b', 2: 'c' };
-console.log(Object.values(obj)); // ['a', 'b', 'c']
-```
-比如找到map中值为1的下标
-```js
-let map = new Map()
-map.set(1, 1)
-map.set(2, 3)
-let arr = [...map.values()]
-arr.forEach((item, index) => {
-  if (item == 1) {
-    console.log(index)  // 0
-  }
-})
-```
-***
-- 2.`Object.entries()`方法返回一个给定对象自身可遍历属性[key,value]的数组
-让obj的遍历变得更加丝滑...
-```js
-const object1 = {
-  a: 'somestring',
-  b: 42
-};
-for (const [key, value] of Object.entries(object1)) {
-  console.log(`${key}: ${value}`);
-}
-```
-### Object.getOwnPropertyDescriptors
-该方法返回指定对象所有自身属性的描述对象
-```js
-const obj = Object.create(null, {
-  name: {
-    value: '41',
-    writable: true,
-    configurable: true,
-    enumerable: true
-  }
-})
-console.log(Object.getOwnPropertyDescriptors(obj));
-```
-## ES9 :star:
-### 扩展运算符与rest参数
-Resr参数与spread扩展运算符在ES6中已经引入，不过ES6中只针对于数组，在ES9中为对象提供了像数组一样的rest参数和扩展运算符
-```js
-function test ({ name, age, ...other }) {
-  console.log(name);
-  console.log(age);
-  console.log(other);
-}
-test({
-  name: 41,
-  age: 24,
-  type: 123,
-  username: 123,
-  password: 123
-})
-/*
-41
-24
-{ type: 123, username: 123, password: 123 }
-*/
-```
-***
-对象的扩展运算符之合并
-```js
-const skillone = {
-  q: 1
-}
-const skilltwo = {
-  w: 2
-}
-console.log({ ...skillone, ...skilltwo });
-```
-### 正则扩展：命名捕获分组
-`?<>`
-```js
-let str = '<a href="http://www.baidu.com">bit</a>'
-// const reg = /<a href="(.*)">(.*)<\/a>/
-const reg = /<a href="(?<url>.*)">(?<text>.*)<\/a>/
-const res = reg.exec(str)
-console.log(res.groups.url);
-console.log(res.groups.text);
-```
-### 正则扩展:  反向断言
-```js
-let str = 'dasdsada123哈哈哈456零零零零'
-// 正向断言
-// const reg = /\d+(?=零)/
-// const res = reg.exec(str)
-// 反向断言
-const reg = /(?<=哈)\d+/
-const res = reg.exec(str)
-console.log(res);
-```
-### 正则扩展：dotAll模式
-正则表达式中，点（.）是一个特殊字符，代表任意的单个字符，但是行终止符（line terminator character）除外。
-
-引入一个`s`修饰符来解决了这个问题
-## ES10 :star:
-### Object.fromEntries
-可以说是`entries`的逆运算，把键值对转换成对象
-```js
-const entries = new Map([
-  ['foo', 'bar'],
-  ['baz', 42]
-]);
-const obj = Object.fromEntries(entries);
-console.log(obj);
-// expected output: Object { foo: "bar", baz: 42 }
-```
-### trimStart与trimEnd
-- `trimStart()`清除字符串前面的空白字符
-- `trimEnd()`清除字符串后面的空白字符
-### flat与flatMap
-- `flat`数组扁平化
-```js
-var arr1 = [1, 2, [3, 4]];
-arr1.flat();
-// [1, 2, 3, 4]
-
-var arr2 = [1, 2, [3, 4, [5, 6]]];
-arr2.flat();
-// [1, 2, 3, 4, [5, 6]]
-
-var arr3 = [1, 2, [3, 4, [5, 6]]];
-arr3.flat(2);
-// [1, 2, 3, 4, 5, 6]
-
-//使用 Infinity，可展开任意深度的嵌套数组
-var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
-arr4.flat(Infinity);
-// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-```
-***
--  flatMap 方法与 map 方法和深度depth为1的 flat 几乎相同.
-```js
-let arr = [1, 2, 3, 4]
-let res1 = arr.map(x => [x * 2])
-let res2 = arr.flatMap(x => [x * 2])
-console.log(res1);//[ [ 2 ], [ 4 ], [ 6 ], [ 8 ] ]
-console.log(res2);//[ 2, 4, 6, 8 ]
-```
-### Symbol.prototype.description
-```js
-console.log(Symbol('desc').description);
-// expected output: "desc"
-```
-## ES11 :star:
-### 私有属性
-简单来说就是在`class`里面的属性前面加一个`#`
-就和c++里面的`private`一样
-不过多阐述了！
-
-### Promise.allSettled
-解决了Promise.all，有一个坏了就全坏了的情况！
-```js
-const promise1 = Promise.resolve(3);
-const promise2 = new Promise((resolve, reject) => setTimeout(reject, 100, 'foo'));
-const promises = [promise1, promise2];
-
-Promise.allSettled(promises).
-  then((results) => results.forEach((result) => console.log(result.status)));
-
-// expected output:
-// { status: 'fulfilled', value: 3 }
-// { status: 'rejected', reason: 'foo' }
-```
-### String.prototype.matchAll
-`matchAll()` 方法返回一个包含所有匹配正则表达式的结果及分组捕获组的迭代器，这样就可以使用`of`迭代了
-```js
-let str = `<ul>
-  <li>
-    <a>123</a>
-    <p>456</p>
-  </li>
-  <li>
-    <a>789</a>
-    <p>987</p>
-  </li>
-</ul>`
-const reg = /<li>.*?<a>(?<texta>.*?)<\/a>.*?<p>(?<textp>.*?)<\/p>/sg
-const result = str.matchAll(reg)
-for (let v of result) {
-  console.log(v.groups.texta);
-  console.log(v.groups.textp);
-}
-```
-### 可选链操作符`？.`
-`?.`让我们不用去判断是否存在了
-方便我们的链式调用
-```js
-//  ES2019的写法
-function doSomething(onContent, onError) {
-  try {
-    // ... do something with the data
-  }
-  catch (err) {
-    if (onError) { // 校验onError是否真的存在
-      onError(err.message);
-    }
-  }
-}
-/******************************************/
-// 使用可选链进行函数调用
-function doSomething(onContent, onError) {
-  try {
-   // ... do something with the data
-  }
-  catch (err) {
-    onError?.(err.message); // 如果onError是undefined也不会有异常
-  }
-}
-```
-### 空值合并运算符`？？`
-空值合并操作符（??）是一个逻辑操作符，当左侧的操作数为 null 或者 undefined 时，返回其右侧操作数，否则返回左侧操作数。
-```js
-let res1 = 0 ?? 42
-let res2 = 0 || 42
-console.log(res1);
-console.log(res2);
-```
-### BigInt类型
-BigInt 是一种内置对象，它提供了一种方法来表示大于 2^53 - 1 的整数。这原本是 Javascript中可以用 Number 表示的最大数字。BigInt 可以表示任意大的整数。
-```js
-const previousMaxSafe = BigInt(Number.MAX_SAFE_INTEGER);
-// ↪ 9007199254740991n
-
-const maxPlusOne = previousMaxSafe + 1n;
-// ↪ 9007199254740992n
-
-const theFuture = previousMaxSafe + 2n;
-// ↪ 9007199254740993n, this works now!
-
-const multi = previousMaxSafe * 2n;
-// ↪ 18014398509481982n
-
-const subtr = multi – 10n;
-// ↪ 18014398509481972n
-
-const mod = multi % 10n;
-// ↪ 2n
-
-const bigN = 2n ** 54n;
-// ↪ 18014398509481984n
-
-bigN * -1n
-// ↪ –18014398509481984n
-```
-### globalThis
-全局属性 globalThis 包含全局的 this 值，类似于全局对象（global object）。
-
-
-## 面试题一 :star:
-
-### 1.var,let,const三者区别
-::: details 点击查看答案
-- 变量提升
-- 暂时性死区
-- 块级作用域
-- 重复声明
-- 修改声明的变量
-- 使用
-能用const的情况尽量使用const，其他情况下大多数使用let，避免使用var
-:::
-
-
-### 2.es6
-::: details 点击查看答案
-- 扩展元素符...，和rest参数的逆运算
-- 构造函数 Array.from,Array.of,fill(),flat(),includes(),keys()
-- 属性简写
-- 解构运算
-- assign()这个是浅拷贝
-- 箭头函数
-- Map Set WeakSet WeakMap
-- Promise(pending/fulfilled/rejected) async/await
-- generator
-- proxy`var proxy = new Proxy(target, handler)`
-- module
-  - CommonJs (典型代表：node.js早期)
-  - AMD (典型代表：require.js)
-  - CMD (典型代表：sea.js)
-- decorator 装饰器
-:::
-
-
-### 3.类型转换机制
-::: details 点击查看答案
-- undefined
-- null
-- boolean
-- string
-- number
-- symbol
-- BigInt
-:::
-
-
-### 4.深拷贝浅拷贝有什么区别？怎么实现深拷贝？
-::: details 点击查看答案
-#### 浅拷贝  指的是创建新的数据，这个数据有着原始数据属性值的一份精确拷贝（hasOwnProperty）
-```JS
-function shallowClone(obj) {
-    const newObj = {};
-    for(let prop in obj) {
-        if(obj.hasOwnProperty(prop)){
-            newObj[prop] = obj[prop];
-        }
-    }
-    return newObj;
-}
-```
-  - Object.assign
-  - Array.prototype.slice(), Array.prototype.concat()
-
-#### 深拷贝 深拷贝开辟一个新的栈，两个对象属完成相同，但是对应两个不同的地址，修改一个对象的属性，不会改变另一个对象的属性
-```JS
-function deepClone(obj, hash = new WeakMap()) {
-  if (obj === null) return obj; // 如果是null或者undefined我就不进行拷贝操作
-  if (obj instanceof Date) return new Date(obj);
-  if (obj instanceof RegExp) return new RegExp(obj);
-  // 可能是对象或者普通的值  如果是函数的话是不需要深拷贝
-  if (typeof obj !== "object") return obj;
-  // 是对象的话就要进行深拷贝
-  if (hash.has(obj)) return hash.get(obj);
-  let cloneObj = new obj.constructor();
-  // 找到的是所属类原型上的constructor,而原型上的 constructor指向的是当前类本身
-  hash.set(obj, cloneObj);
-  for (let key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      // 实现一个递归拷贝
-      cloneObj[key] = deepClone(obj[key], hash);
-    }
-  }
-  return cloneObj;
-}
-```
-:::
-
-### 5.说说你对闭包的理解，以及闭包使用场景
-::: details 点击查看答案
-闭包让你可以在一个内层函数中访问到其外层函数的作用域
-- 创建私有变量
-- 延长变量的生命周期
-:::
-
-
-### 6.什么是作用域链？
-::: details 点击查看答案
-作用域，即变量(变量作用域又称上下文)和函数生效的区域或集合
-当前层作用域找不到就向上一层找
-:::
-
-
-### 7.JS中的原型，原型链分别是什么？
-::: details 点击查看答案
-#### 原型
-函数可以有属性。 每个函数都有一个特殊的属性叫作原型prototype
-#### 原型链
-原型对象也可能拥有原型，并从中继承方法和属性，一层一层、以此类推。这种关系常被称为原型链 (prototype chain)，它解释了为何一个对象会拥有定义在其他对象中的属性和方法
-
-在对象实例和它的构造器之间建立一个链接（它是__proto__属性，是从构造函数的prototype属性派生的），之后通过上溯原型链，在构造器中找到这些属性和方法
-:::
-
-
-### 8.JS如何实现继承？
-::: details 点击查看答案
-- 原型链继承(内存共享)
-- 构造函数继承(只能继承父类的实例属性和方法，不能继承原型属性或者方法)
-- 组合继承
-- 原型式继承
-- 寄生式继承
-- 寄生组合式继承
-:::
-
-
-### 9.谈谈this指针
-::: details 点击查看答案
-this 关键字是函数运行时自动生成的一个内部对象，只能在函数内部使用，总指向调
-:::
-
-
-### 10.JS的事件模型有哪些？
-::: details 点击查看答案
-- 事件捕获阶段
-- 处于目标阶段
-- 事件冒泡阶段
-
-***
-
-- 原始事件模型
-- 标准事件模型
-- IE事件模型
-:::
-
-## 面试题二 :star:
-
-### 1.什么是事件代理，以及它的应用场景
-::: details 点击查看答案
-事件委托，会把一个或者一组元素的事件委托到它的父层或者更外层元素上，真正绑定事件的是外层元素，而不是目标元素
-
-当事件响应到目标元素上时，会通过事件冒泡机制从而触发它的外层元素的绑定事件上，然后在外层元素上去执行函数
-:::
-
-
-### 2.说说new操作符具体干了什么？
-::: details 点击查看答案
-- 创建一个新的对象obj
-- 将对象与构建函数通过原型链连接起来
-- 将构建函数中的this绑定到新建的对象obj上
-- 根据构建函数返回类型作判断，如果是原始值则被忽略，如果是返回对象，需要正常处理
-#### 手写new操作符
-```JS
-function mynew(Func, ...args) {
-    // 1.创建一个新对象
-    const obj = {}
-    // 2.新对象原型指向构造函数原型对象
-    obj.__proto__ = Func.prototype   // const obj=Object.create(Func.prototype)
-    // 3.将构建函数的this指向新对象
-    let result = Func.apply(obj, args)
-    // 4.根据返回值判断
-    return result instanceof Object ? result : obj
-}
-```
-:::
-
-
-### 3.讲一下事件委托,target与currentTarget分别是什么？
-::: details 点击查看答案
-- event.target返回触发事件的元素
-- event.currentTarget返回绑定事件的元素
-***
-- addEventListener (type, listener[, useCapture]) 第三个参数如果是true，表示在事件捕获阶段调用事件处理程序；如果是false（不写默认就是false），表示在事件冒泡阶段电泳事件处理程序
-- 事件委托的原理：不给每个子节点单独设置事件监听器，而是设置在其父节点上，然后利用冒泡原理设置每个子节点。
-:::

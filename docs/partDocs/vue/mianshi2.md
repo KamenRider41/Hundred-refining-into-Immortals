@@ -1,0 +1,186 @@
+# 面试题二 :star:
+
+## 1.slot插槽
+::: details 点击查看答案
+可以传组件到组件里面
+:::
+
+
+## 2.vue3中使用attrs，slots，emit
+::: details 点击查看答案
+setup(props,context){
+  context.attrs
+  context.slots
+  context.emit
+  context.refs
+}
+:::
+
+## 3.说说vue中，key的原理
+::: details 点击查看答案
+谋定而后动！vitural tree
+给唯一key，思考起来方便。
+:::
+
+
+## 4.说说你对Vue中keep-alive的理解
+::: details 点击查看答案
+在keep-alive缓存的组件被激活的时候，都会执行actived钩子
+- 路由配置缓存
+  - 添加meta属性
+  ```js
+  {
+   path: "/keepAliveTest",
+   name: "keepAliveTest",
+   meta: {
+       keepAlive: true //设置页面是否需要使用缓存
+   },
+   component: () => import("@/views/keepAliveTest/index.vue")
+  },
+  ```
+  - activated()生命周期
+  ```js
+    <keep-alive>
+      <component :is="Component"  v-if="$route.meta.keepAlive"/>
+    </keep-alive>
+    // 先包裹
+    activated() {
+      // 页面每次进入将手机动态验证码置为空
+      this.$refs.mobPwdCode.inputValue = '';
+    },
+  ```
+:::
+
+## 5.Vue常用的修饰符有哪些？分别有什么应用场景？
+::: details 点击查看答案
+  - 表单修饰符 lazy trim number
+  - 事件修饰符
+    - stop
+    - prevent
+    - self
+    - capture 顶层往下触发
+    - once
+    - passive
+    - native
+  - 鼠标按钮修饰符
+    - left
+    - right
+    - middle
+  - 键盘修饰符
+    - enter
+    - space
+    - tab
+    - ctrl
+    - shift
+  - v-bind修饰符
+    - sync 快速监听
+    - prop
+:::
+
+
+
+## 6.如何实现自定义指令
+::: details 点击查看答案
+- 全局注册
+```JS
+// 注册一个全局自定义指令 `v-focus`
+Vue.directive('focus', {
+  // 当被绑定的元素插入到 DOM 中时……
+  inserted: function (el) {
+    // 聚焦元素
+    el.focus()  // 页面加载完成之后自动让输入框获取到焦点的小功能
+  }
+})
+```
+- 局部注册
+```JS
+directives: {
+  focus: {
+    // 指令的定义
+    inserted: function (el) {
+      el.focus() // 页面加载完成之后自动让输入框获取到焦点的小功能
+    }
+  }
+}
+```
+:::
+
+## 7.什么是虚拟DOM
+::: details 点击查看答案
+敌军千万重！我自岿然不动！
+通过VNode，vue可以对这颗抽象树进行创建节点,删除节点以及修改节点的操作， 经过diff算法得出一些需要修改的最小单位,再更新视图，减少了dom操作，提高了性能
+:::
+
+
+## 8.说说vue中的diff算法
+::: details 点击查看答案
+diff 算法是一种通过同层的树节点进行比较的高效算法
+其有两个特点：
+- 比较只会在同层级进行, 不会跨层级比较
+- 在diff比较的过程中，循环从两边向中间比较
+diff 算法的在很多场景下都有应用，在 vue 中，作用于虚拟 dom 渲染成真实 dom 的新旧 VNode 节点比较
+:::
+
+
+## 9.Vue项目中有封装过axios吗？怎么封装的？
+::: details 点击查看答案
+axios 是一个轻量的 HTTP客户端
+
+基于 XMLHttpRequest 服务来执行 HTTP 请求，支持丰富的配置，支持 Promise，支持浏览器端和 Node.js 端。自Vue2.0起，尤大宣布取消对 vue-resource 的官方推荐，转而推荐 axios。现在 axios 已经成为大部分 Vue 开发者的首选
+
+- 安装
+```JS
+// 项目中安装
+npm install axios --S
+// cdn 引入
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+```
+ - 导入
+ ```JS
+ import axios from 'axios'
+ ```
+ - 发送请求
+ ```JS
+axios({        
+  url:'xxx',    // 设置请求的地址
+  method:"GET", // 设置请求方法
+  params:{      // get请求使用params进行参数凭借,如果是post请求用data
+    type: '',
+    page: 1
+  }
+}).then(res => {  
+  // res为后端返回的数据
+  console.log(res);   
+})
+ ```
+ - 并发请求`axios.all([])`
+ ```JS
+ function getUserAccount() {
+    return axios.get('/user/12345');
+}
+
+function getUserPermissions() {
+    return axios.get('/user/12345/permissions');
+}
+
+axios.all([getUserAccount(), getUserPermissions()])
+    .then(axios.spread(function (res1, res2) { 
+    // res1第一个请求的返回的内容，res2第二个请求返回的内容
+    // 两个请求都执行完成才会执行
+}));
+ ```
+***
+- 利用node环境变量来区分开发，测试，生产环境
+- vue.config.js文件中配置代理，实现跨域(target,changeOrigin,pathRewrite)
+- 请求拦截器 和响应拦截器
+:::
+
+
+## 10.大型项目中，Vue项目怎么划分结构和划分组件比较合理呢？
+::: details 点击查看答案
+- 文件夹和文件夹内部文件的语义一致性
+- 单一入口/出口
+- 就近原则，紧耦合的文件应该放到一起，且应以相对路径引用
+- 公共的文件应该以绝对路径的方式从根目录引用
+- /src外的文件不应该被引入
+:::
