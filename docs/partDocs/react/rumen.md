@@ -1,6 +1,3 @@
----
-sidebarDepth: 3
----
 # React快速入门
 
 ## 创建一个react工程npx

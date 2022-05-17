@@ -1,5 +1,24 @@
+---
+home: true
+heroImage: /logo.jpg
+heroText: 钧桐的前端日记
+tagline: 款款独行,才不致倾溢
+actionText: 让我康康 ！
+actionLink: /partDocs/aboutme
+features:
+- title: 前端之路
+  details: 2021年9月决定系统学习前端,先后参加了阿里练习生计划和百度前端训练营,主要用Vue2,Vue3,现在也在学React
+- title: 目前现状
+  details: 侥幸拿到字节跳动实习(base:北京,线上入职),希望通过大厂的实战让自己获得新的成长,更快速的成长
+- title: 短期规划
+  details: 把React和Webpack学通透然后拿下字节实习转正,在2022的秋天成为名副其实的offer收割机.
+footer: a student from HNU | Copyright © 2018-present Evan You
+---
+***
+
 # 写在前面
-::: tip 我是一只小菜鸟
+::: tip 虽千万人,吾往矣！
+
 
 备战2023秋招:smiling_imp:，一个及其私密的前端面试备战仓库！:star:
 
@@ -7,8 +26,7 @@
 
 :::
 
-
-正值青春年华，不巧碰上22年互联网寒冬:interrobang:,找实习太难了:disappointed_relieved::disappointed_relieved::disappointed_relieved:！
+<!-- 正值青春年华，不巧碰上22年互联网寒冬:interrobang:,找实习太难了:disappointed_relieved::disappointed_relieved::disappointed_relieved:！
 
 但是，换个角度，静下心来夯实基础也是不错的 :yum:
 
@@ -16,7 +34,7 @@
 
 希望大家都能上岸！！！:star::star::star:
 
-也非常欢迎大家来仓库提PR！:star::star::star:
+也非常欢迎大家来仓库提PR！:star::star::star: -->
 ### 目录:star:
 - HTML :exclamation:
   - 写在前面
@@ -62,7 +80,7 @@
 :::
 
 
-<div style="margin:20px;">
+<div style="margin:20px;display:flex;justify-content:space-around;">
   <img src='/Hundred-refining-into-Immortals/weixin.jpg' style="width:300px;height:320px;margin:10px;">
   <img src='/Hundred-refining-into-Immortals/zhifubao.jpg' style="width:300px;height:320px;margin:10px;">
 </div>

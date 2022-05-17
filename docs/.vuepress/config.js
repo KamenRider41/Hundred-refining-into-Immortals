@@ -14,7 +14,9 @@ module.exports = {
   themeConfig: {
     logo: '/logo.jpg',
     nav,
-    sidebar
+    sidebar,
+    lastUpdated: 'lastUpdate',
+    smoothScroll: true
   },
   plugins: [
     '@vuepress/back-to-top',
