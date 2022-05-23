@@ -203,7 +203,7 @@ export default function App7 () {
 }
 ```
 ### 子传父
-- 无论式vue 小程序还是react,所谓的子传父，真实在干活的式父组件
+- 无论是vue 小程序还是react,所谓的子传父，真实在干活的是父组件
 ```js
 // 子组件
 function Child (props) {

@@ -11,6 +11,19 @@ module.exports = [
       { text: 'React', link: '/partDocs/react/react' },
     ]
   }, {
+    text: '实习笔记',
+    items: [
+      { text: '写在前面', link: '/partDocs/internship/internship' },
+      { text: '实习提问', link: '/partDocs/internship/question' },
+      { text: 'Bootcamp学习笔记', link: '/partDocs/internship/bootcamp' }
+    ]
+  }, {
+    text: 'Bug回忆录',
+    items: [
+      { text: '写在前面', link: '/partDocs/bug/bug' },
+      { text: 'Git-Bug', link: '/partDocs/bug/git' }
+    ]
+  }, {
     text: '关于我',
     items: [
       { text: '关于我', link: '/partDocs/aboutme' },
