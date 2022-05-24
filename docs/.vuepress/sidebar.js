@@ -18,6 +18,38 @@ module.exports = {
       children: [
         ['internship', '写在前面'],
         ['question', '实习提问'],
+        ['vscode', 'vscode好用插件'],
+        {
+          title: 'Git学习',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['git/peizhi', 'Git配置'],
+            {
+              title: 'Git主要',
+              collapsable: true,
+              sidebarDepth: 1,
+              children: [
+                ['git/main/jichu', '基础篇'],
+                ['git/main/gaoji', '高级篇'],
+                ['git/main/yidong', '移动提交记录'],
+                ['git/main/zaxiang', '杂项'],
+                ['git/main/huati', '高级话题'],
+              ]
+            },
+            {
+              title: 'Git远程',
+              collapsable: true,
+              sidebarDepth: 1,
+              children: [
+                ['git/long/1', 'PUSH&Pull'],
+                ['git/long/2', 'origin与它的周边'],
+              ]
+            },
+
+          ]
+        },
+
         ['bootcamp', 'Bootcamp学习笔记'],
       ]
     }

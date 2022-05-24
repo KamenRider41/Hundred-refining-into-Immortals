@@ -15,6 +15,8 @@ module.exports = [
     items: [
       { text: '写在前面', link: '/partDocs/internship/internship' },
       { text: '实习提问', link: '/partDocs/internship/question' },
+      { text: 'vscode好用插件', link: '/partDocs/internship/vscode' },
+      { text: 'Git学习', link: '/partDocs/internship/git/peizhi' },
       { text: 'Bootcamp学习笔记', link: '/partDocs/internship/bootcamp' }
     ]
   }, {
@@ -34,52 +36,3 @@ module.exports = [
     ]
   }
 ]
-
-
-  // {
-  //   text: 'HTML',
-  //   items: [
-  //     { text: '写在前面', link: '/partDocs/html/html' },
-  //     { text: '三栏布局', link: '/partDocs/html/sanlan' },
-  //     { text: 'HTML面试题1', link: '/partDocs/html/mianshi1' },
-  //     { text: 'HTML面试题2', link: '/partDocs/html/mianshi2' },
-  //     { text: 'HTML面试题3', link: '/partDocs/html/mianshi3' },
-  //     { text: 'HTML面试题4', link: '/partDocs/html/mianshi4' },
-  //   ]
-  // }, {
-  //   text: 'CSS',
-  //   items: [
-  //     { text: '写在前面', link: '/partDocs/css/css' },
-  //     { text: 'CSS面试题1', link: '/partDocs/css/mianshi1' },
-  //     { text: 'CSS面试题2', link: '/partDocs/css/mianshi2' },
-  //   ]
-  // }, {
-  //   text: 'Javascript',
-  //   items: [
-  //     { text: '写在前面', link: '/partDocs/javascript/javascript' },
-  //     { text: '手撕javascript', link: '/partDocs/javascript/shousi' },
-  //     { text: 'ES6', link: '/partDocs/javascript/es6' },
-  //     { text: 'ES7', link: '/partDocs/javascript/es7' },
-  //     { text: 'ES8', link: '/partDocs/javascript/es8' },
-  //     { text: 'ES9', link: '/partDocs/javascript/es9' },
-  //     { text: 'ES10', link: '/partDocs/javascript/es10' },
-  //     { text: 'ES11', link: '/partDocs/javascript/es11' },
-  //     { text: 'Javascript面试题1', link: '/partDocs/javascript/mianshi1' },
-  //     { text: 'Javascript面试题2', link: '/partDocs/javascript/mianshi2' },
-  //   ]
-  // }, {
-  //   text: 'Vue',
-  //   items: [
-  //     { text: '写在前面', link: '/partDocs/vue/vue' },
-  //     { text: 'Vue面试题1', link: '/partDocs/vue/mianshi1' },
-  //     { text: 'Vue面试题2', link: '/partDocs/vue/mianshi2' },
-  //     { text: 'Vue面试题3', link: '/partDocs/vue/mianshi3' },
-  //     { text: 'Vue面试题4', link: '/partDocs/vue/mianshi4' },
-  //   ]
-  // }, {
-  //   text: 'React',
-  //   items: [
-  //     { text: '写在前面', link: '/partDocs/react/react' },
-  //     { text: 'React快速入门', link: '/partDocs/react/rumen' },
-  //   ]
-  // }, 
