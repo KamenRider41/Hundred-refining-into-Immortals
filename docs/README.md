@@ -36,45 +36,33 @@ footer: a student from HNU | Copyright © 2018-present Evan You
 
 也非常欢迎大家来仓库提PR！:star::star::star: -->
 ### 目录:star:
-- HTML :exclamation:
+- 前端知识点 :exclamation:
+  - HTML
+  - CSS
+  - Javascript
+  - Vue
+  - React
+- 实习笔记 :exclamation:
   - 写在前面
-  - HTML面试题一 
-  - HTML面试题二 
-  - HTML面试题三 
-  - HTML面试题四 
-- CSS :exclamation:
+  - 实习提问
+  - vscode好用插件
+  - Git学习
+    - ...
+  - React学习
+    - ...
+  - Bootcamp学习笔记
+- Bug回忆录 :exclamation:
   - 写在前面
-  - CSS面试题一 
-  - CSS面试题二 
-- Javascript :exclamation:
-  - 写在前面
-  - 手撕Javascript :star:
-  - ES6 :star:  
-  - ES7 
-  - ES8 
-  - ES9 
-  - ES10 
-  - ES11 
-  - Javascript面试题一 
-  - Javascript面试题二 
-- Vue :exclamation:
-  - 写在前面
-  - Vue面试题一 
-  - Vue面试题二 
-  - Vue面试题三
-  - Vue面试题四
-- React :exclamation:
-  - 写在前面
-  - React快速入门 :star:
-***
-- 之后会补充
-  - Webpack :question:
-  - 计算机网络 :question:
-  - 网络安全 :question:
-  - 面经 :question:
+  - Git-bug
+- 关于我 :exclamation:
+  - 关于我
+  - Github
+  - CSDN
+  - 掘金
+  - b站
 
 
-### 老板糊涂阿！:+1::+1::+1:
+<!-- ### 老板糊涂阿！:+1::+1::+1:
 ::: danger
 *未成年人请不要打赏！*
 :::
@@ -83,4 +71,4 @@ footer: a student from HNU | Copyright © 2018-present Evan You
 <div style="margin:20px;display:flex;justify-content:space-around;">
   <img src='/Hundred-refining-into-Immortals/weixin.jpg' style="width:300px;height:320px;margin:10px;">
   <img src='/Hundred-refining-into-Immortals/zhifubao.jpg' style="width:300px;height:320px;margin:10px;">
-</div>
+</div> -->

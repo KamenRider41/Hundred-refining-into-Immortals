@@ -49,7 +49,16 @@ module.exports = {
 
           ]
         },
-
+        {
+          title: 'React学习',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['react/react', '写在前面'],
+            ['react/rumen', '快速入门'],
+            ['react/compose', '函数式编程学习笔记'],
+          ]
+        },
         ['bootcamp', 'Bootcamp学习笔记'],
       ]
     }

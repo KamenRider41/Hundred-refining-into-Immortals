@@ -11,6 +11,9 @@ const nav = require('./nav')
 module.exports = {
   title: '前端基础百炼成仙',
   base: '/Hundred-refining-into-Immortals/',
+  head: [
+    ['link', { rel: 'icon', href: '/logo.jpg' }],
+  ],
   themeConfig: {
     logo: '/logo.jpg',
     nav,
@@ -20,6 +23,10 @@ module.exports = {
   },
   plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/nprogress'
+    '@vuepress/nprogress',
+    '@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: true
+    }
   ]
 }

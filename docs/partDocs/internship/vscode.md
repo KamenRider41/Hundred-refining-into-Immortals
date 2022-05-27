@@ -1,4 +1,9 @@
 # vscode好用插件 :star:
+- `shift+command+p`输入`shell command`安装`code .`命令
+  - 之后可以用`code .`快速打开`vscode`
+- `pwd`当前文件路径
+- `cd ~`上一层文件
+***
 - `Chinese` 中文翻译
 - `ESLint`
 eslint插件，可以帮助定位问题和自动修改问题，想在command+F的时候自动修复格式，可以在settings.json(command+shift+P 唤起命令行后搜索setting就能看到了)中输入
