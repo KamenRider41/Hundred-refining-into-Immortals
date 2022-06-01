@@ -48,12 +48,12 @@ footer: a student from HNU | Copyright © 2018-present Evan You
   - vscode好用插件
   - Git学习
     - ...
+  - Charles学习
   - React学习
     - ...
+  - Flutter学习
   - Bootcamp学习笔记
-- Bug回忆录 :exclamation:
-  - 写在前面
-  - Git-bug
+  - bug回忆录
 - 关于我 :exclamation:
   - 关于我
   - Github

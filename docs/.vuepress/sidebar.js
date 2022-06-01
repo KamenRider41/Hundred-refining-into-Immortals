@@ -46,7 +46,15 @@ module.exports = {
                 ['git/long/2', 'origin与它的周边'],
               ]
             },
-
+          ]
+        },
+        {
+          title: 'TypeScript学习',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['typescript/type', '写在前面'],
+            ['typescript/rumen', '快速入门'],
           ]
         },
         {
@@ -59,7 +67,17 @@ module.exports = {
             ['react/compose', '函数式编程学习笔记'],
           ]
         },
+        {
+          title: 'Flutter学习',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['flutter/flutter', '写在前面'],
+          ]
+        },
+        ['charles', 'Charles学习'],
         ['bootcamp', 'Bootcamp学习笔记'],
+        ['bug/bug', 'Bug回忆录']
       ]
     }
   ],

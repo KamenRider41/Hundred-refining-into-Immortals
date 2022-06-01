@@ -17,16 +17,15 @@ module.exports = [
       { text: '实习提问', link: '/partDocs/internship/question' },
       { text: 'vscode好用插件', link: '/partDocs/internship/vscode' },
       { text: 'Git学习', link: '/partDocs/internship/git/peizhi' },
+      { text: 'TypeScript学习', link: '/partDocs/internship/typescript/type' },
       { text: 'React学习', link: '/partDocs/internship/react/react' },
-      { text: 'Bootcamp学习笔记', link: '/partDocs/internship/bootcamp' }
+      { text: 'Flutter学习', link: '/partDocs/internship/flutter/flutter' },
+      { text: 'Charles学习', link: '/partDocs/internship/charles' },
+      { text: 'Bootcamp学习笔记', link: '/partDocs/internship/bootcamp' },
+      { text: 'Bug回忆录', link: '/partDocs/internship/bug/bug' },
     ]
-  }, {
-    text: 'Bug回忆录',
-    items: [
-      { text: '写在前面', link: '/partDocs/bug/bug' },
-      { text: 'Git-Bug', link: '/partDocs/bug/git' }
-    ]
-  }, {
+  },
+  {
     text: '关于我',
     items: [
       { text: '关于我', link: '/partDocs/aboutme' },

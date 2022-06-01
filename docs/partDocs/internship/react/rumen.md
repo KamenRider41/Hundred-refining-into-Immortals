@@ -1,5 +1,8 @@
+---
+siderbarDepth: 1
+---
 # React快速入门 :star:
-
+[[toc]]
 ## 创建一个react工程npx
 - 安装命令`npx create-react-app react-app`(react-app是工程名字)
 	- `npx`会下载创建后自动删除，所以每次都会是最新的版本
