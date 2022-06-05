@@ -1,6 +1,9 @@
 module.exports = [
   {
     text: 'Home', link: '/'
+  },
+  {
+    text: 'LeetCode', link: '/partDocs/leetcode'
   }, {
     text: '前端知识点',
     items: [

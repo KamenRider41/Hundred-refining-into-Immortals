@@ -26,16 +26,9 @@ footer: a student from HNU | Copyright © 2018-present Evan You
 
 :::
 
-<!-- 正值青春年华，不巧碰上22年互联网寒冬:interrobang:,找实习太难了:disappointed_relieved::disappointed_relieved::disappointed_relieved:！
-
-但是，换个角度，静下心来夯实基础也是不错的 :yum:
-
-所以做了这个面试题汇总的网页，分享给大家！:heart_eyes:
-
-希望大家都能上岸！！！:star::star::star:
-
-也非常欢迎大家来仓库提PR！:star::star::star: -->
 ### 目录:star:
+- LeetCode
+  - leetcode高频题
 - 前端知识点 :exclamation:
   - HTML
   - CSS
@@ -46,12 +39,15 @@ footer: a student from HNU | Copyright © 2018-present Evan You
   - 写在前面
   - 实习提问
   - vscode好用插件
+  - TypeScript学习
+    - ...
   - Git学习
     - ...
   - Charles学习
   - React学习
     - ...
   - Flutter学习
+    - ...
   - Bootcamp学习笔记
   - bug回忆录
 - 关于我 :exclamation:

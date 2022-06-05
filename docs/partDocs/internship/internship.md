@@ -88,6 +88,8 @@ sidebarDepth: 0
   - 方便需求的完成
 #### 周末
 - ✅使用`React`和`TypeScript`写一个todo-list，录视频
+- 个人站点添加`LeetCode`新模块！
+  - 使用`scss`的bug弄了好久
 ### 最近
 - `Typescript`的泛型和装饰器+写博客
 - `useCallback`和`useMemo`研究+写博客

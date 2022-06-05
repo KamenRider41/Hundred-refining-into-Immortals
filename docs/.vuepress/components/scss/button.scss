@@ -1,0 +1,42 @@
+.m-button {
+  height: 34px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 12px;
+  margin: 7px;
+
+  &.btn-default {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    opacity: 0.6;
+  }
+
+  &.btn-primary {
+    background-color: blue;
+    color: #fff;
+    opacity: 0.6;
+  }
+
+  &.btn-success {
+    background-color: green;
+    color: #fff;
+    opacity: 0.6;
+  }
+
+  &.btn-danger {
+    background-color: red;
+    color: #fff;
+    opacity: 0.6;
+  }
+
+  &.btn-warning {
+    background-color: orange;
+    color: #fff;
+    opacity: 0.6;
+  }
+
+  &.btn-shadow {
+    box-shadow: 1px 3px 5px #666;
+  }
+}

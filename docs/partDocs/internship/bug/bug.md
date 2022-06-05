@@ -6,6 +6,13 @@ sidebarDepth: 0
 记录一下Bug:star::star:
 :::
 [[TOC]]
+## Vue
+### 在vuepress中配置scss
+- 版本冲突
+```bash
+npm install sass --save-dev
+npm install sass-loader@7.3.1 --save-dev
+```
 ## Charles
 - 忘记开启`SSL proxying`导致没办法本地代理
 ## Git相关的Bug
