@@ -83,11 +83,13 @@ sidebarDepth: 0
 - ✅整理最近的文档
 
 #### 6.2
+- ✅`react-ts-todo`+解决两次`useEffect`的`bug`+写博客
 - 继续看需求的`UI`和熟悉项目
   - 方便需求的完成
+#### 周末
+- ✅使用`React`和`TypeScript`写一个todo-list，录视频
 ### 最近
 - `Typescript`的泛型和装饰器+写博客
 - `useCallback`和`useMemo`研究+写博客
-- 使用`React`和`TypeScript`写一个todo-list，录视频
 
 
