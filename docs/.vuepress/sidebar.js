@@ -25,6 +25,7 @@ module.exports = {
           sidebarDepth: 1,
           children: [
             ['git/peizhi', 'Git配置'],
+            ['git/ziliao', 'Git资料'],
             {
               title: 'Git主要',
               collapsable: true,
@@ -55,6 +56,7 @@ module.exports = {
           children: [
             ['typescript/type', '写在前面'],
             ['typescript/rumen', '快速入门'],
+            ['typescript/jinjie', '进阶之泛型和装饰器'],
           ]
         },
         {

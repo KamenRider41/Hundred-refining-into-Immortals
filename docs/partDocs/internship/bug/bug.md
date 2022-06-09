@@ -6,6 +6,20 @@ sidebarDepth: 0
 记录一下Bug:star::star:
 :::
 [[TOC]]
+## 研发
+### 启动端口被占用
+```bash
+losf -i tcp:3300  # 查看端口号进程
+kill -9 number # number是占用的PID号
+```
+之后就可以正常启动了
+### 改变文件位置后运行报错
+- 引入的`less`文件的路径要做修改
+
+### Select组件获取选择value
+- 这里不是用`ref`来调用`state`来获得的
+- 而是直接`onChange={(value)=>{consolelog(value)}`
+
 ## Vue
 ### 在vuepress中配置scss
 - 版本冲突

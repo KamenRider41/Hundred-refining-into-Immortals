@@ -2,8 +2,8 @@
 sidebarDepth : 0
 ---
 
-[[TOC]]
-## 写在前面
+
+# 写在前面
 由于没有编译和类型检查的束缚，`JavaScirpt`天生就是一门灵活，容易上手的语言，但也难以维护
 ***
 `TypeScript`可以说已经悄悄地走近了程序员(更准确一点是前端程序员)的日常开发之中。
@@ -14,7 +14,9 @@ sidebarDepth : 0
 
 然后,说起TS不要再只知道上单TS了，它还是JS的加强盔甲
 
-### 为什么要有TypeScript？
+[[TOC]]
+
+## 为什么要有TypeScript？
 - 首先，`TypeScript`是`JavaScript`的超集，它是包含JS的，或者说TS是`javascript`的一件装备
 - 为什么要有这件装备呢？
     - JS是一门比较随意的语言，很灵活，但是也会有问题出现.

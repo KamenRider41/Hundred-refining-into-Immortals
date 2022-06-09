@@ -1,7 +1,12 @@
+---
+siderbarDepth : 0
+---
+
 # Git配置 :star:
 ::: tip 粮草先行
 无论学习什么，我们都要先配置，让它能够运行。否则其他的都是纸老虎，上不了台面！
 :::
+[[toc]]
 ## 安装git
 - 下载`brew`,使用国内镜像源`/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`
   - 主要这个进去后本体和国内要下载两次，**要输入两次序号(提示为1，5)**
