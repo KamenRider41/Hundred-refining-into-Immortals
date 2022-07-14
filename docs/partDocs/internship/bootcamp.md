@@ -129,7 +129,8 @@ sidebarDepth: 0
 - 资源和网络的监控
 
 ## lynx
-- 写法很类似Vue
+- 客户端神器
 
 ## 研发必备
 - codebase
+- xx云里面的装备

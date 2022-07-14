@@ -1,15 +1,4 @@
 module.exports = {
-  '/partDocs/bug/': [
-    {
-      title: 'Bug回忆录',
-      collapsable: true,
-      sidebarDepth: 1,
-      children: [
-        ['bug', '写在前面'],
-        ['git', 'Git_Bug'],
-      ]
-    }
-  ],
   '/partDocs/internship/': [
     {
       title: '实习笔记',
@@ -18,7 +7,9 @@ module.exports = {
       children: [
         ['internship', '写在前面'],
         ['question', '实习提问'],
+        ['bootcamp', 'Bootcamp学习笔记'],
         ['vscode', 'vscode好用插件'],
+        ['charles', 'Charles学习'],
         {
           title: 'Git学习',
           collapsable: true,
@@ -75,11 +66,24 @@ module.exports = {
           sidebarDepth: 1,
           children: [
             ['flutter/flutter', '写在前面'],
+            ['flutter/doctor', 'Flutter环境配置'],
+            ['flutter/hello', '小荷才露尖尖角'],
+            ['flutter/widget', 'widget是一切'],
           ]
         },
-        ['charles', 'Charles学习'],
-        ['bootcamp', 'Bootcamp学习笔记'],
-        ['bug/bug', 'Bug回忆录']
+
+        {
+          title: 'Bug回忆录',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['bug/bug', '写在前面'],
+            ['bug/work', '研发'],
+            ['bug/git', 'Git'],
+            ['bug/flutter', 'Flutter'],
+            ['bug/other', '其他'],
+          ]
+        },
       ]
     }
   ],
