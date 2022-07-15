@@ -11,7 +11,7 @@ features:
 - title: 目前现状
   details: 侥幸拿到字节跳动实习(base:北京,线上入职),希望通过大厂的实战让自己获得新的成长,更快速的成长
 - title: 短期规划
-  details: 把React和Webpack学通透然后拿下字节实习转正,在2022的秋天成为名副其实的offer收割机.
+  details: 把React和Flutter学通透然后拿下字节实习转正,在2022的秋天成为名副其实的offer收割机.
 footer: a student from HNU | Copyright © 2018-present Evan You
 ---
 ***
@@ -25,6 +25,7 @@ footer: a student from HNU | Copyright © 2018-present Evan You
 作者是一名HNU的研二学生 :smirk::smirk::smirk:
 
 :::
+<a href="https://github.com/KamenRider41/Hundred-refining-into-Immortals/issues" target="_blank">跳转评论区</a>
 
 ### 目录:star:
 - LeetCode
@@ -56,6 +57,7 @@ footer: a student from HNU | Copyright © 2018-present Evan You
   - CSDN
   - 掘金
   - b站
+
 
 
 <!-- ### 老板糊涂阿！:+1::+1::+1:
