@@ -9,7 +9,7 @@
 :::
 
 ### 目录:star:
-- LeetCode
+- LeetCode :exclamation:
   - leetcode高频题汇总
 - 前端知识点 :exclamation:
   - HTML
@@ -20,18 +20,19 @@
 - 实习笔记 :exclamation:
   - 写在前面
   - 实习提问
+  - Bootcamp学习笔记
   - vscode好用插件
-  - TypeScript学习
-    - ...
+  - Charles学习
   - Git学习
     - ...
-  - Charles学习
+  - TypeScript学习
+    - ...
   - React学习
     - ...
   - Flutter学习
     - ...
-  - Bootcamp学习笔记
   - bug回忆录
+    - ...
 - 关于我 :exclamation:
   - 关于我
   - Github

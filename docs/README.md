@@ -7,16 +7,27 @@ actionText: 让我康康 ！
 actionLink: /partDocs/aboutme
 features:
 - title: 前端之路
-  details: 2021年9月决定系统学习前端,先后参加了阿里练习生计划和百度前端训练营,主要用Vue2,Vue3,现在也在学React
+  details: 2021年9月决定系统学习前端,先后参加了阿里练习生计划和百度前端训练营,技术栈:Vue.js React.js,最近也在学Flutter
 - title: 目前现状
-  details: 侥幸拿到字节跳动实习(base:北京,线上入职),希望通过大厂的实战让自己获得新的成长,更快速的成长
+  details: 侥幸通过字节跳动实习面试(base:北京),希望通过大厂的实战让自己获得新的成长,更快速的成长
 - title: 短期规划
   details: 把React和Flutter学通透然后拿下字节实习转正,在2022的秋天成为名副其实的offer收割机.
 footer: a student from HNU | Copyright © 2018-present Evan You
 ---
-***
+<div style="
+    width:100%;
+    display:flex;
+    justify-content:center;">
+    <HomeTitle/>
+    <a href="https://github.com/KamenRider41/Hundred-refining-into-Immortals/discussions" target="_blank">跳转到情报区</a>
+</div>
 
-# 写在前面
+
+
+
+
+
+<!-- # 写在前面
 ::: tip 虽千万人,吾往矣！
 
 
@@ -24,8 +35,8 @@ footer: a student from HNU | Copyright © 2018-present Evan You
 
 作者是一名HNU的研二学生 :smirk::smirk::smirk:
 
-:::
-<a href="https://github.com/KamenRider41/Hundred-refining-into-Immortals/issues" target="_blank">跳转评论区</a>
+::: -->
+<!-- <a href="https://github.com/KamenRider41/Hundred-refining-into-Immortals/issues" target="_blank">跳转评论区</a>
 
 ### 目录:star:
 - LeetCode
@@ -56,7 +67,7 @@ footer: a student from HNU | Copyright © 2018-present Evan You
   - Github
   - CSDN
   - 掘金
-  - b站
+  - b站 -->
 
 
 

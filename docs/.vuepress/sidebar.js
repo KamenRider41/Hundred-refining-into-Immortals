@@ -154,7 +154,8 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         ['react', '写在前面'],
-        ['rumen', 'React快速入门'],
+        ['rumen', '快速入门'],
+        ['compose', '函数式编程学习笔记'],
       ]
     }
   ],
