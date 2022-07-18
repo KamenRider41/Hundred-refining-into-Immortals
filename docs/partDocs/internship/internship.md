@@ -422,18 +422,23 @@ sidebarDepth: 0
 - ✅为站点和github-readme更换shields:io
   - 发现可以添加图标的新大陆
   - 可以提一个小pr?
-- 个人站点优化
+- ✅个人站点优化
   - 排版，docs整理等
   - 添加跳转github-discussion
     - 样式冲突了
   - 添加首页导航
     - 需要写组件
-- 录一个动态规划的视频
 - ✅看一下上周的调研资料
   - 周一脑子预热
+
+#### 7.18
+- 同时提交到github和gitee
+  - 在`.git`文件中修改`config`文件
 ### 最近
 - [搁置]Go学习
 - `Flutter`学习
 - `useCallback`和`useMemo`研究+写博客+录视频
 - `muye-novel-web-pc`的运行
   - 需求小改动直接提交了,boe可以了，本地运行还没研究
+- 录一个动态规划的视频
+- token的视频
