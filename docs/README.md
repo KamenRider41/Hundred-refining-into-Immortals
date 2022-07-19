@@ -23,6 +23,15 @@ footer: a student from HNU | Copyright © 2018-present Evan You
 </div>
 
 
+<div style="
+    width:100%;
+    display:flex;
+    justify-content:center;">
+  <Nav></Nav>
+</div>
+
+
+
 
 
 
