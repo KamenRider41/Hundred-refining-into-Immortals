@@ -444,9 +444,19 @@ sidebarDepth: 0
   - 比如图片视为一个dom节点
 - ✅缺陷
   - 下划线颜色也要跟着改变
-- 个人站点添加导航item
+- ✅个人站点添加导航item
 #### 7.19
-- 
+- 偷icon 403
+- cross-env not found
+  - 乱七八糟的，后面重新拉用yarn可以了
+- 安装nvm
+- Access denied for user 'root@localhost'(using password:NO)
+  - 用dbeaver连接本地数据库的时候忘记给密码了
+#### 7.20
+- 个人站点导航的icon找不到的bug
+  - 应该是别的网站设置了cors，不让用呗
+
+  
 ### 最近
 - [搁置]Go学习
 - `Flutter`学习
@@ -456,3 +466,4 @@ sidebarDepth: 0
 - 录一个动态规划的视频
 - token的视频
 - 写一篇webpack的文章，一个小模板
+- 写一篇单元测试的文章

@@ -16,16 +16,17 @@ export default [
     "imgSrc": 'https://www.baidu.com/favicon.ico',
     "url": 'https://www.baidu.com/'
   }, {
-    "content": '前端电子书大全',
-    "url": 'https://niceboybao.github.io/2019/03/05/others/books/'
+    "content": 'Github',
+    "imgSrc": 'https://github.com/favicon.ico',
+    "url": 'https://github.com/'
+  }, {
+    "content": 'Csdn',
+    "imgSrc": 'https://www.csdn.net/favicon.ico',
+    "url": 'https://www.csdn.net/'
   }, {
     "content": '掘金',
     "imgSrc": 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg',
     "url": 'https://juejin.cn/'
-  }, {
-    "content": 'Github',
-    "imgSrc": 'https://github.com/favicon.ico',
-    "url": 'https://github.com/'
   }, {
     "content": 'Bilibili',
     "imgSrc": 'https://www.bilibili.com/favicon.ico',
@@ -33,11 +34,7 @@ export default [
   }, {
     "content": 'LeetCode',
     "imgSrc": 'https://leetcode-cn.com/favicon.ico',
-    "url": 'https://juejin.cn/'
-  }, {
-    "content": 'Csdn',
-    "imgSrc": 'https://www.csdn.net/favicon.ico',
-    "url": 'https://www.csdn.net/'
+    "url": 'https://leetcode-cn.com'
   }, {
     "content": 'substats',
     "imgSrc": 'https://substats.swo.moe/favicon.ico',
@@ -46,18 +43,17 @@ export default [
     "content": 'Shields.io',
     "url": 'https://shields.io/'
   }, {
-    "content": '木及简历',
-    "imgSrc": 'https://www.mujicv.com/favicon.ico',
-    "url": 'https://www.mujicv.com/'
-  }, {
     "content": 'iconfont矢量图标库',
     "url": 'https://www.iconfont.cn/',
   }, {
     "content": 'Font Awesome',
     "url": 'https://fontawesome.dashgame.com/'
   }, {
+    "content": '木及简历',
+    "imgSrc": 'https://www.mujicv.com/favicon.ico',
+    "url": 'https://www.mujicv.com/'
+  }, {
     "content": '站长之家',
-    "imgSrc": 'https://tool.chinaz.com/favicon.ico',
     "url": 'https://tool.chinaz.com/'
   }, {
     "content": 'NPM',
@@ -71,6 +67,9 @@ export default [
     "content": 'arco-design',
     "imgSrc": 'https://avatars.githubusercontent.com/u/64576149?s=200&v=4',
     "url": 'https://arco.design/mobile/react/arco-design/pc/#/'
-  }
+  }, {
+    "content": '前端电子书大全',
+    "url": 'https://niceboybao.github.io/2019/03/05/others/books/'
+  },
 ]
 //

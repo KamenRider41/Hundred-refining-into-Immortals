@@ -36,7 +36,7 @@ export default {
     },
     imgSrc: {
       type: String,
-      default: "https://gd-hbimg.huaban.com/16528801f477256bb82e192f0d02f999a4b5066d480f-6BAQp8_fw658"
+      default: "/Hundred-refining-into-Immortals/nav.png"
     },
     url: {
       type: String,
