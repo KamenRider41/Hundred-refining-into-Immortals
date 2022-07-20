@@ -18,13 +18,14 @@ module.exports = [
     items: [
       { text: '写在前面', link: '/partDocs/internship/internship' },
       { text: '实习提问', link: '/partDocs/internship/question' },
+      { text: 'Bootcamp学习笔记', link: '/partDocs/internship/bootcamp' },
       { text: 'vscode好用插件', link: '/partDocs/internship/vscode' },
+      { text: 'Charles学习', link: '/partDocs/internship/charles' },
       { text: 'Git学习', link: '/partDocs/internship/git/peizhi' },
       { text: 'TypeScript学习', link: '/partDocs/internship/typescript/type' },
       { text: 'React学习', link: '/partDocs/internship/react/react' },
       { text: 'Flutter学习', link: '/partDocs/internship/flutter/flutter' },
-      { text: 'Charles学习', link: '/partDocs/internship/charles' },
-      { text: 'Bootcamp学习笔记', link: '/partDocs/internship/bootcamp' },
+      { text: 'ProseMirror学习', link: '/partDocs/internship/prosemirror/prosemirror' },
       { text: 'Bug回忆录', link: '/partDocs/internship/bug/bug' },
     ]
   },

@@ -70,6 +70,22 @@ export default [
   }, {
     "content": '前端电子书大全',
     "url": 'https://niceboybao.github.io/2019/03/05/others/books/'
+  }, {
+    "content": 'Google',
+    "imgSrc": 'https://www.google.com.hk/favicon.ico',
+    "url": 'https://www.google.com.hk/'
+  }, {
+    "content": 'Vue.js',
+    "imgSrc": 'https://vuejs.bootcss.com/images/logo.png',
+    "url": 'https://vuejs.bootcss.com/guide/'
+  }, {
+    "content": 'React.js',
+    "imgSrc": 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K',
+    "url": 'https://react.docschina.org/'
+  }, {
+    "content": 'Webpack',
+    "imgSrc": 'https://www.webpackjs.com/32dc115fbfd1340f919f0234725c6fb4.png',
+    "url": 'https://www.webpackjs.com/'
   },
 ]
-//
+//https://www.google.com.hk/webhp?hl=zh-CN&sourceid=cnhp&gws_rd=ssl

@@ -71,7 +71,15 @@ module.exports = {
             ['flutter/widget', 'widget是一切'],
           ]
         },
-
+        {
+          title: 'ProseMirror学习',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['prosemirror/prosemirror', '写在前面'],
+            ['prosemirror/rumen', '编辑器从伤感到破局'],
+          ]
+        },
         {
           title: 'Bug回忆录',
           collapsable: true,
