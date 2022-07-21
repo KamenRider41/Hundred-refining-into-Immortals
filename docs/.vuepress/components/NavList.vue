@@ -36,7 +36,6 @@ export default {
     color: rgba(0, 0, 0, 0.64)
   }
 
-
   &-list {
     display: grid;
     grid-template-columns: repeat(8, 100px);
@@ -44,6 +43,45 @@ export default {
 
   &-item {
     margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .nav-list {
+    &-title {}
+
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(7, 96px);
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .nav {
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(6, 94px);
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .nav {
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(5, 92px);
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav {
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(4, 90px);
+    }
+
   }
 }
 </style>

@@ -473,6 +473,7 @@ sidebarDepth: 0
 - prosemirror插件无法运行的bug
   - concat到setup那个插件后面可以
   - 或者不用setup
+- 媒体查询出错
 ### 最近
 - [搁置]Go学习
 - `Flutter`学习
