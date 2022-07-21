@@ -463,12 +463,16 @@ sidebarDepth: 0
     - MDN，Lodash，Vue.js，React.js
     - HTML,HTML5，CSS，CSS3
     - Webpack,vite,Leetcode,大全
-    - csdn，掘金
+    - csdn，掘金,bilibili
   - 前端工具-组件库
     - antd,arco,element
   - 前端工具-icon
     - iconfont,fontAwesome，ShieldsIO，substats
   - 其他工具
+#### 7.21
+- prosemirror插件无法运行的bug
+  - concat到setup那个插件后面可以
+  - 或者不用setup
 ### 最近
 - [搁置]Go学习
 - `Flutter`学习

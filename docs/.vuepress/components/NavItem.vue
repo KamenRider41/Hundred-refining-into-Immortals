@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .card {
   display: flex;
   justify-content: center;
@@ -74,19 +74,19 @@ export default {
   background-color: rgba(168, 166, 166, 0.1);
   border-radius: 20px;
   padding: 10px 10px;
+
+  &-content {
+    flex: 0.3;
+    font-size: xx-small;
+    text-align: center;
+  }
+
+  &-icon {
+    flex: 0.7;
+  }
 }
 
 .card:hover {
   background-color: rgb(168, 166, 166);
-}
-
-.card-content {
-  flex: 0.3;
-  font-size: xx-small;
-  text-align: center;
-}
-
-.card-icon {
-  flex: 0.7;
 }
 </style>
