@@ -54,8 +54,13 @@ export default {
   }
 
   100% {
-
     clip-path: polygon(-20% 0%, 0% 0%, -10% 100%, -30% 100%);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #home-title {
+    font-size: 25px;
   }
 }
 </style>
