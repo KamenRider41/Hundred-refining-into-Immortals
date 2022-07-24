@@ -470,18 +470,25 @@ sidebarDepth: 0
     - iconfont,fontAwesome，ShieldsIO，substats
   - 其他工具
 #### 7.21
-- prosemirror插件无法运行的bug
+- ✅prosemirror插件无法运行的bug
   - concat到setup那个插件后面可以
   - 或者不用setup
-- 媒体查询出错
+- ✅媒体查询出错
+#### 7.22
+- ✅bun性能比node,deno好
+  - 存在内存泄漏问题
+  - 也许能改变格局
+- ✅solid和svelte
+  - solid很像react但是确实不错
+#### 周末
+- ✅写一篇webpack的文章，一个小模板
+- ✅整理最近的博客和bug回忆录
+- ✅把koa搭建的模板写一个cli
 ### 最近
-- [搁置]Go学习
-- `Flutter`学习
-- `useCallback`和`useMemo`研究+写博客+录视频
 - `muye-novel-web-pc`的运行
   - 需求小改动直接提交了,boe可以了，本地运行还没研究
+- 写一篇单元测试的文章
 - 录一个动态规划的视频
 - token的视频
-- 写一篇webpack的文章，一个小模板
-- 写一篇单元测试的文章
-- 把koa搭建的模板写一个cli
+  - token的实现  
+
