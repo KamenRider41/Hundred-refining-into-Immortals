@@ -1,5 +1,5 @@
 <template>
-  <div class="card" :style="style" @click="clickMethods">
+  <div class="card" :style="style" @click="clickMethods" @mouseout="outMethods" @mousemove="moveMethods">
     <div class="card-icon">
       <img alt="web-logo" :src=imgSrc :style="imgStyle">
     </div>
@@ -60,6 +60,14 @@ export default {
   methods: {
     clickMethods () {
       window.open(this.url, "_black")
+    },
+    moveMethods (e) {
+      let x = (e.offsetX - 37) / 2
+      let y = (e.offsetY - 50) / 2
+      e.currentTarget.style.transform = `perspective(300px) rotateX(${-y}deg) rotateY(${x}deg) scale3d(1, 1, 1)`
+    },
+    outMethods (e) {
+      e.currentTarget.style.transform = `perspective(300px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`
     }
   }
 }
@@ -74,6 +82,9 @@ export default {
   background-color: rgba(168, 166, 166, 0.1);
   border-radius: 20px;
   padding: 10px 10px;
+  will-change: transform;
+  transition: 0.2s;
+  transform: perspective(300px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
 
   &-content {
     flex: 0.3;
