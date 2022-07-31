@@ -64,10 +64,12 @@ export default {
     moveMethods (e) {
       let x = (e.offsetX - 37) / 2
       let y = (e.offsetY - 50) / 2
-      e.currentTarget.style.transform = `perspective(300px) rotateX(${-y}deg) rotateY(${x}deg) scale3d(1, 1, 1)`
+      e.currentTarget.style.transform = `perspective(250px) rotateX(${-y}deg) rotateY(${x}deg) scale3d(1, 1, 1)`
+      // e.currentTarget.style.transition = '0.25s '
     },
     outMethods (e) {
-      e.currentTarget.style.transform = `perspective(300px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`
+      e.currentTarget.style.transform = `perspective(250px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`
+      // e.currentTarget.style.transition = '2s'
     }
   }
 }
@@ -83,8 +85,8 @@ export default {
   border-radius: 20px;
   padding: 10px 10px;
   will-change: transform;
-  transition: 0.2s;
-  transform: perspective(300px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+  transition: all 0.3s cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
+  box-shadow: 2px 2px 1px 0.1px rgba(0, 0, 0, 0.1);
 
   &-content {
     flex: 0.3;
@@ -94,6 +96,7 @@ export default {
 
   &-icon {
     flex: 0.7;
+
   }
 }
 
