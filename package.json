@@ -9,10 +9,6 @@
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitee.com/KamenRider41/front-end-interview.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
