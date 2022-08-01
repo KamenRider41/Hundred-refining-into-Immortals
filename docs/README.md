@@ -14,15 +14,17 @@ features:
   details: 把React和Flutter学通透然后拿下字节实习转正,在2022的秋天成为名副其实的offer收割机.
 footer: a student from HNU | Copyright © 2018-present Evan You
 ---
-<img style="
+<Sakura></Sakura>
+
+<!-- <img style="
     position:absolute;
     top:0;
     left:0;
     width:100%;
     height:565px;"
-    src="/background.svg">
+    src="/Hundred-refining-into-Immortals/background.svg"> -->
 
-<img src="/js.gif">
+<img src="/Hundred-refining-into-Immortals/js.gif">
 
 <div style="
     width:100%;
