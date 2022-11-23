@@ -64,7 +64,7 @@ export default {
     moveMethods (e) {
       let x = (e.offsetX - 37) / 2
       let y = (e.offsetY - 50) / 2
-      e.currentTarget.style.transform = `perspective(250px) rotateX(${-y}deg) rotateY(${x}deg) scale3d(1.15, 1.15, 1.)`
+      e.currentTarget.style.transform = `perspective(250px) rotateX(${-y}deg) rotateY(${x}deg) scale3d(1.15, 1.15, 1.15)`
     },
     outMethods (e) {
       e.currentTarget.style.transform = `perspective(250px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`
