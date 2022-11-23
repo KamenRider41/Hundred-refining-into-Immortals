@@ -1,10 +1,9 @@
 # 写在前面
 ::: tip 虽千万人,吾往矣！
 
-
 备战2023秋招:smiling_imp:，一个及其私密的前端面试备战仓库！:star:
 
-作者是一名HNU的研二学生 :smirk::smirk::smirk:
+作者是一名HNU的研二学生,已经上岸大厂！ :smirk::smirk::smirk:
 
 :::
 
