@@ -8,7 +8,7 @@ export default [
         "url": 'https://www.baidu.com/'
       }, {
         "content": 'Google',
-        "imgSrc": 'https://www.google.com.hk/favicon.ico',
+        // "imgSrc": 'https://www.google.com.hk/favicon.ico',
         "url": 'https://www.google.com.hk/'
       }, {
         "content": 'Github',
@@ -62,7 +62,7 @@ export default [
         "url": 'https://www.runoob.com/css3/css3-tutorial.html'
       }, {
         "content": 'Webpack',
-        "imgSrc": 'https://www.webpackjs.com/32dc115fbfd1340f919f0234725c6fb4.png',
+        "imgSrc": 'https://www.webpackjs.com/icon-square-small.85ba630cf0c5f29ae3e3.svg',
         "url": 'https://www.webpackjs.com/'
       }, {
         "content": 'Vite',
@@ -142,11 +142,10 @@ export default [
         "url": 'https://tool.chinaz.com/'
       }, {
         "content": 'NPM',
-        "imgSrc": 'https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jYmM2Mjk2NWU4YTI5NTQyM2QxNDgzN2Y4OTFjNzA2Mj9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.xiFSn5OaWWp7dnyi_VLJB4I2l1CtCVKhSy8ZE9hu1Dw',
+        "imgSrc": 'https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png',
         "url": 'https://www.npmjs.com/'
       }, {
         "content": '动漫插画',
-        "imgSrc": 'https://www.pixiv.net/favicon.ico',
         "url": 'https://www.pixiv.net/'
       },
     ]
