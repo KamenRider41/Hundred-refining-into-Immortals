@@ -62,12 +62,14 @@ export default {
       window.open(this.url, "_black")
     },
     moveMethods (e) {
-      let x = (e.offsetX - 37) / 2
-      let y = (e.offsetY - 50) / 2
+      let x = (e.offsetX - 37) / 3
+      let y = (e.offsetY - 50) / 3
       e.currentTarget.style.transform = `perspective(250px) rotateX(${-y}deg) rotateY(${x}deg) scale3d(1.15, 1.15, 1.15)`
+      e.currentTarget.style.bottom = `10px`
     },
     outMethods (e) {
       e.currentTarget.style.transform = `perspective(250px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`
+      e.currentTarget.style.bottom = `0px`
     }
   }
 }
@@ -75,6 +77,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
