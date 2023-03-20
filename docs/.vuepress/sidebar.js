@@ -1,4 +1,23 @@
 module.exports = {
+  '/partDocs/worklog/': [
+    {
+      title: '工作日志',
+      collapsable: true,
+      sidebarDepth: 1,
+      children: [
+        ['worklog', '写在前面'],
+        {
+          title: '正式工作前',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            ['before/before', '写在前面'],
+            ['before/css', 'css权威指南读书笔记'],
+          ]
+        },
+      ]
+    }
+  ],
   '/partDocs/internship/': [
     {
       title: '实习笔记',

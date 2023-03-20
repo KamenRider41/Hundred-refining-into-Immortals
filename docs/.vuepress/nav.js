@@ -1,3 +1,10 @@
+/*
+ * @Author: 41
+ * @Date: 2022-06-05 16:38:13
+ * @LastEditors: 41
+ * @LastEditTime: 2023-03-20 19:33:41
+ * @Description: 
+ */
 module.exports = [
   {
     text: 'Home', link: '/'
@@ -27,6 +34,13 @@ module.exports = [
       { text: 'Flutter学习', link: '/partDocs/internship/flutter/flutter' },
       { text: 'ProseMirror学习', link: '/partDocs/internship/prosemirror/prosemirror' },
       { text: 'Bug回忆录', link: '/partDocs/internship/bug/bug' },
+    ]
+  },
+  {
+    text: '工作日志',
+    items: [
+      { text: '写在前面', link: '/partDocs/worklog/worklog' },
+      { text: '正式工作前', link: '/partDocs/worklog/before/before' },
     ]
   },
   {
