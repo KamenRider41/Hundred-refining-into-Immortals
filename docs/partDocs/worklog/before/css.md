@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2023-03-20 19:38:05
  * @LastEditors: 41
- * @LastEditTime: 2023-03-22 15:22:42
+ * @LastEditTime: 2023-03-26 10:39:14
  * @Description: 
 -->
 # CSS权威指南 :star:
@@ -152,3 +152,9 @@ css一直都是一个前端工程师的灵魂！
   - 颜色关键字`transparent`,`currentColor`这个实际开发中很少用到，就是当前元素计算得到的值
 - 角度
   - `deg`0-360,`grad`0-400,`rad`0-6.283,`turn`0-1
+
+## 第五章：字体
+简单来说，就是控制字体。
+
+
+## 第六章：文本属性
