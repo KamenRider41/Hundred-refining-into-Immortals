@@ -2,9 +2,18 @@
  * @Author: 41
  * @Date: 2022-06-05 16:38:13
  * @LastEditors: 41
- * @LastEditTime: 2023-03-20 19:33:41
+ * @LastEditTime: 2023-03-29 18:42:01
  * @Description: 
  */
+const before = [
+  {
+    text: '科研成果记录', link: '/partDocs/worklog/before/research/research'
+  },
+  {
+    text: 'css权威指南读书笔记', link: '/partDocs/worklog/before/css'
+  },
+
+]
 module.exports = [
   {
     text: 'Home', link: '/'
@@ -40,7 +49,9 @@ module.exports = [
     text: '工作日志',
     items: [
       { text: '写在前面', link: '/partDocs/worklog/worklog' },
-      { text: '正式工作前', link: '/partDocs/worklog/before/before' },
+      { text: '正式工作前', items: before },
+      // { text: '正式工作前', link: '/partDocs/worklog/before/before' },
+
     ]
   },
   {

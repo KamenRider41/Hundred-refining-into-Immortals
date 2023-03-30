@@ -1,3 +1,4 @@
+
 module.exports = {
   '/partDocs/worklog/': [
     {
@@ -13,6 +14,18 @@ module.exports = {
           children: [
             ['before/before', '写在前面'],
             ['before/css', 'css权威指南读书笔记'],
+            {
+              title: '科研成果记录',
+              collapsable: true,
+              sidebarDepth: 1,
+              children: [
+                ['before/research/research', '写在前面'],
+                ['before/research/ml', '基于机器学习的三维星座解调'],
+                // ['git/main/gaoji', '高级篇'],
+                // ['git/main/yidong', '移动提交记录'],
+              ]
+            },
+            // ['before/research', '科研成果记录'],
           ]
         },
       ]
