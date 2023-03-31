@@ -21,7 +21,7 @@ module.exports = {
               children: [
                 ['before/research/research', '写在前面'],
                 ['before/research/ml', '基于机器学习的三维星座解调'],
-                // ['git/main/gaoji', '高级篇'],
+                ['before/research/chua', '基于双信号源的蔡氏电路'],
                 // ['git/main/yidong', '移动提交记录'],
               ]
             },
