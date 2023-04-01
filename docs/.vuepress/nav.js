@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-06-05 16:38:13
  * @LastEditors: 41
- * @LastEditTime: 2023-03-29 18:42:01
+ * @LastEditTime: 2023-04-01 23:29:21
  * @Description: 
  */
 const before = [
@@ -50,8 +50,6 @@ module.exports = [
     items: [
       { text: '写在前面', link: '/partDocs/worklog/worklog' },
       { text: '正式工作前', items: before },
-      // { text: '正式工作前', link: '/partDocs/worklog/before/before' },
-
     ]
   },
   {
