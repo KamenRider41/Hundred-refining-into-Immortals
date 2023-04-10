@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2023-03-20 19:38:05
  * @LastEditors: 41
- * @LastEditTime: 2023-03-26 10:39:14
+ * @LastEditTime: 2023-04-10 17:19:09
  * @Description: 
 -->
 # CSS权威指南 :star:
@@ -154,7 +154,62 @@ css一直都是一个前端工程师的灵魂！
   - `deg`0-360,`grad`0-400,`rad`0-6.283,`turn`0-1
 
 ## 第五章：字体
-简单来说，就是控制字体。
-
-
+- 简单地说一些基础知识，然后之后我们以介绍关键字为主
+  - css五种通用字体
+  - 字体可以组合描述
+- 关键字
+  - `@font-size`可以定义字体
+  - `unicode-range`限制字符
+  - `font-weight`字重
+    - 100最细，900最粗
+    - 400-normal 
+    - 700-bold
+    - bolder下一个字型，比如normal：bolder就是bold700，如果没有更大的字型就加100，700->800
+  - `font-size`字号
+    - 绝对值xx-small,x-small,small,medium,large,x-large,xx-large
+    - 相对大小larger，smaller
+    - 百分数和em 100%=1em
+  - `font-size-adjust`自动调整字号
+  - `font-style`字型
+    - italic，oblique，normal
+  - `font-stretch`字体拉伸
+  - `font-kerning`字距调整
+    - auto,normal,none
+  - `font-variant`字体变形
+- 感觉很多属性是平时没有用到过的，先扫盲了，以后有了深刻体会再来更新
 ## 第六章：文本属性
+- css中还是有不少操作涉及文本属性的，这一章还是从关键字出来，来记录一下阅读笔记
+- 关键字
+  - 缩进和行内对齐
+    - `text-indent`块级元素文本缩进
+      - 知道为什么h是块级元素了吧？
+    - `text-align`控制文本的对齐方式
+      - start,end,left,right,center,justify(两端对齐),match-parent,start end
+      - 左上，右下。横纵的转换口诀
+    - `text-align-last`最后一行的对齐方式
+  - 块级对齐
+    - `line-height`可以数字，长度，百分比
+    - `vertical-align`纵向对齐文本
+    - `word-spacing`单词间距，注意和上面字距的区别
+    - `letter-spacing`字符间距，可以用来强调
+    - `text-transform`文本转换
+      - uppercase,lowercase,capitalize,none
+    - `text-decoration`这个属性就比较有意思了
+      - 上划线，下划线，删除线等underline,wavy,dotted,over等
+    - `text-rendering`一个svg属性，没太看明白
+    - `text-shadow`文本阴影
+    - `white-space`处理空白
+      - 设置pre会小心处理空白
+      - pre-line,normal,nowrap,pre,pre-wrap
+    - `tab-size`制表符对应空格数，优先级低于`white-space`
+    - `hyphens`是否连字符
+    - `word-break`控制换行
+      - normal,break-all,keep-all
+    - `line-break`
+      - auto,loose,normal,strict,anywhere
+    - `overflow-wrap`超出容器换行
+      - normal,break-word,anywhere
+    - `writing-mode`书写模式
+      - horizontal-tb,vertical-rl,vertical-lr
+    - `text-orientation`改变文本方向
+      - mixed,upright,sideways
