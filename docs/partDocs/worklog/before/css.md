@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2023-03-20 19:38:05
  * @LastEditors: 41
- * @LastEditTime: 2023-04-10 17:19:09
+ * @LastEditTime: 2023-04-11 21:48:57
  * @Description: 
 -->
 # CSS权威指南 :star:
@@ -213,3 +213,43 @@ css一直都是一个前端工程师的灵魂！
       - horizontal-tb,vertical-rl,vertical-lr
     - `text-orientation`改变文本方向
       - mixed,upright,sideways
+## 第7章：视觉格式化基础
+- 补充知识
+  - 非置换元素和置换元素，前面提到了
+  - 块级框 display:block
+  - 行内框 display:inline
+  - 行内块级框 
+    - 内部块级外部行内，比如img
+- 行内元素和块级元素是可以转换的！这个在前面也提到过
+- `box-sizing`
+  - `content-box`标准盒模型，宽度不包括边距和边框
+  - `padding-box`这个不太理解
+  - `border=box` 怪异和模型，宽度包括内边距和边框
+- 横向格式化属性
+  - 一共7个：margin-left,border-left,padding-left,width,padding-right,border-right,margin-right
+  - 就是外边距，边框，内边距
+  - 使用`auto`可以控制居中
+  - 负边距，这个经常用到就不多说了
+- 纵向格式化属性
+  - 类似的，边距边框从上到下
+  - 一共7个：margin-top,border-top,padding-top,height,padding-bottom,border-bottom,margin-bottom
+  - `height:auto`可以自动调整框体高度
+  - 注意内外边距折叠的情况
+    - 就是上边距10px,下边距15px,最后就是15px,取最大值
+- 行内格式化
+  - 主要是看`height`和`font-size`
+  - 行内据是两者之差除以二
+- 纵向对齐
+  - `line-height`和`font-size`相等
+  - 控制行高，避免与另一行重叠，可以用1em
+- `box-decoration-break`改变断行行为
+- 行内置换元素 img
+  - 对置换元素可能增加行框的高度，但对line-height没有影响
+- 行内块级元素 inline-block
+  - 行内块级元素是当作置换元素进行格式化的
+  - 我的理解是前换后不换
+- 流动显示方式
+  - 看上去是由新旧值改变的
+- `contents`显示方式
+  - 魔法值，让元素不再参与页面的格式化
+- `display`的其他值在后面的章节会详细介绍的
