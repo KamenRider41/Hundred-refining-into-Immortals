@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2023-03-20 19:38:05
  * @LastEditors: 41
- * @LastEditTime: 2023-04-11 21:48:57
+ * @LastEditTime: 2023-04-13 21:15:18
  * @Description: 
 -->
 # CSS权威指南 :star:
@@ -253,3 +253,49 @@ css一直都是一个前端工程师的灵魂！
 - `contents`显示方式
   - 魔法值，让元素不再参与页面的格式化
 - `display`的其他值在后面的章节会详细介绍的
+## 第8章：内边距、边框、轮廓和外边距
+这一章是详细地介绍盒模型，所以这章读书笔记可能不会很多
+- 复值
+  - padding，margin按照上右下左的循序赋值
+  - 同样可以用padding-top这样的属性去单独赋值
+- 内边距的百分数值
+  - 这个百分数值是相对于父元素内容去的宽度计算的
+- 行内元素的内边距
+  - 会影响行内元素的边框
+- 置换元素的内边距
+  - 可以为图像设定内边距
+- `border-style`边框的样式
+  - none,hidden,solid,dotted.dashed,double,groove,ridge,inset,outset
+  - 同样适用上面的复值，可以定义四个边框
+  - 单个就是border-top-style等等
+- `border-width`边框宽度
+  - 单个就是border-top-width等等
+- `border-color`边框颜色
+  - 单个就是border-top-color等等
+- `border-top`可以简写
+  - border-top：width/style/color
+  - 相当于包含三个属性
+  - 整体就是border也是包含三个属性
+- `border-radius`圆角边框
+  - 计算方式是左上角高除以长
+  - 单独属性
+    - border-top-left-radius
+    - border-top-right-radius
+    - border-bottom-right-radius
+    - border-bottom-left-radius
+- `border-image-sourse`图像边框
+  - 加载和裁剪边框图像
+- `border-image-slice`裁剪方式，这个属性感觉很难去描述
+- `border-image-width`裁剪的边框大小
+  - 这两者配合可以产生一些很有趣的反应
+- `border-image-outset`图片可以超出边框的大小 
+- `border-image-repeat`图片如何填充边框
+- `border-image`简写属性
+  - boreder-image-source，border-image-slice，image-width,border-image-outside,border-image-repeat
+- `outline-style`轮廓样式
+- `outline-width`轮廓宽度
+- `outline-color`轮廓颜色
+- `outline`简写属性
+  - color、style、width
+  - 区别：轮廓不会影响布局
+- 外边距同内边距
