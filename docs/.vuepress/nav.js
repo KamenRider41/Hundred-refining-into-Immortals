@@ -6,9 +6,9 @@
  * @Description: 
  */
 const beforeWork = [
-  {
-    text: '科研成果记录', link: '/partDocs/worklog/before/research/research'
-  },
+  // {
+  //   text: '科研成果记录', link: '/partDocs/worklog/before/research/research'
+  // },
   {
     text: 'css权威指南读书笔记', link: '/partDocs/worklog/before/css'
   },

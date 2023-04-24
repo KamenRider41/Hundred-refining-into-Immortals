@@ -117,17 +117,17 @@ module.exports = {
           sidebarDepth: 1,
           children: [
             ['before/before', '写在前面'],
-            {
-              title: '科研成果记录',
-              collapsable: true,
-              sidebarDepth: 1,
-              children: [
-                ['before/research/research', '写在前面'],
-                ['before/research/chua', '基于双信号源的蔡氏电路'],
-                ['before/research/3dqam', '新型三维星座图和OFDM-ROF系统设计'],
-                ['before/research/ml', '基于机器学习的三维星座解调'],
-              ]
-            },
+            // {
+            //   title: '科研成果记录',
+            //   collapsable: true,
+            //   sidebarDepth: 1,
+            //   children: [
+            //     ['before/research/research', '写在前面'],
+            //     ['before/research/chua', '基于双信号源的蔡氏电路'],
+            //     ['before/research/3dqam', '新型三维星座图和OFDM-ROF系统设计'],
+            //     ['before/research/ml', '基于机器学习的三维星座解调'],
+            //   ]
+            // },
             ['before/css', 'css权威指南读书笔记'],
           ]
         },
