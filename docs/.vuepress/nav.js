@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-06-05 16:38:13
  * @LastEditors: 41
- * @LastEditTime: 2023-06-18 23:05:36
+ * @LastEditTime: 2023-08-07 01:33:05
  * @Description: 
  */
 const beforeWork = [
@@ -66,7 +66,9 @@ module.exports = [
   {
     text: '关于我',
     items: [
-      { text: '关于我', link: '/partDocs/aboutme' },
+      { text: '关于我', link: '/partDocs/aboutme/aboutme' },
+      { text: '本科个人传记', link: '/partDocs/aboutme/biography' },
+      { text: '硕士毕业致谢', link: '/partDocs/aboutme/thanks' },
       { text: 'Github', link: 'https://github.com/KamenRider41' },
       { text: 'CSDN', link: 'https://blog.csdn.net/qq_42136832' },
       { text: '掘金', link: 'https://juejin.cn/user/1108753576635751/posts' },

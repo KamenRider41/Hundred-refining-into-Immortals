@@ -1,10 +1,3 @@
-<!--
- * @Author: 41
- * @Date: 2022-06-05 16:38:13
- * @LastEditors: 41
- * @LastEditTime: 2023-08-07 00:39:56
- * @Description: 
--->
 ---
 home: true
 heroImage: /logo.jpg
