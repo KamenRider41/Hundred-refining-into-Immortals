@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2023-03-31 18:30:41
  * @LastEditors: 41
- * @LastEditTime: 2023-04-01 14:49:24
+ * @LastEditTime: 2023-06-18 23:56:31
  * @Description: 
 -->
 # 基于双信号源的蔡氏电路 :star:
@@ -19,22 +19,66 @@
 - 蔡氏电路由于非线性器件比如电感，电容，引起的电压浮动属于一种非线性动力系统，即混沌系统
 - 可以被用来加以运算后成为加密使用的密钥
 - 可以从下图的示意图看出，浮动之间的联系会产生涡卷
-<img src="/Hundred-refining-into-Immortals/research/chua/chua-shiyi.png">
-<h3 style="textAlign:center;">蔡氏电路混沌示意图</h3>
-<img src="/Hundred-refining-into-Immortals/research/chua/chua.png">
-<h3 style="textAlign:center;">蔡氏电路示意图</h3>
-<img src="/Hundred-refining-into-Immortals/research/chua/NI-chua.png">
-<h3 style="textAlign:center;">蔡氏电路仿真图</h3>
+#### 蔡氏电路混沌示意图
+<img  style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/chua/chua-shiyi.png">
+
+#### 蔡氏电路电路图
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/chua/chua.png">
+
+#### 蔡氏电路仿真图
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/chua/NI-chua.png">
+
 
 ## 基于单信号源的蔡氏电路
-<img src="/Hundred-refining-into-Immortals/research/chua/chua.png">
-<h3 style="textAlign:center;">基于单信号源蔡氏电路图</h3>
-<img src="/Hundred-refining-into-Immortals/research/chua/chua-single.png">
-<h3 style="textAlign:center;">蔡氏电路仿真图</h3>
+#### 基于单信号源蔡氏电路图
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/chua/chua.png">
+
+#### 基于单信号源蔡氏电路仿真图
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/chua/chua-single.png">
+
 
 ## 基于双信号源的蔡氏电路
-<img src="/Hundred-refining-into-Immortals/research/chua/chua-double.png">
-<h3 style="textAlign:center;">基于双信号源蔡氏电路图</h3>
+
+#### 基于双信号源蔡氏电路图
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/chua/chua-double.jpg">
+
+
 <div style="
     width:100%;
     display:flex;

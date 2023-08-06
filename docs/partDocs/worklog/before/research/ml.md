@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2023-03-27 09:49:21
  * @LastEditors: 41
- * @LastEditTime: 2023-04-24 19:22:41
+ * @LastEditTime: 2023-08-07 01:20:07
  * @Description: 
 -->
 # 基于机器学习的三维星座解调 :star:
@@ -40,28 +40,83 @@ pip3 install -U scikit-learn # 这是3.+版本的安装命令
 ### 决策树深度
 - 特别地，我们研究了决策树深度的影响：
 可以看出深度到10层之后，深度再增加，决策树的精确度不再增加了。所以模型的最佳深度应该是10层
-<img src="/Hundred-refining-into-Immortals/research/ml/deep.jpg">
+
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/deep.jpg">
 
 ### 决策树模型的混淆矩阵
-<img src="/Hundred-refining-into-Immortals/research/ml/tree_confusion.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/tree_confusion.jpg">
 
 ### 决策树模型的ROC曲线
-<img src="/Hundred-refining-into-Immortals/research/ml/tree_roc1.jpg">
-<img src="/Hundred-refining-into-Immortals/research/ml/tree_roc2.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/tree_roc1.png">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/tree_roc2.png">
 
 ### 决策树模型的PR曲线
-<img src="/Hundred-refining-into-Immortals/research/ml/tree_pr.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/tree_pr.png">
 
 ## 基于支持向量机的模型结果分析
 ### 支持向量机的混淆矩阵
-<img src="/Hundred-refining-into-Immortals/research/ml/svm_confusion.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/svm_confusion.jpg">
 
 ### 支持向量机的ROC曲线
-<img src="/Hundred-refining-into-Immortals/research/ml/svm_roc1.jpg">
-<img src="/Hundred-refining-into-Immortals/research/ml/svm_roc2.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/svm_roc1.png">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/svm_roc2.png">
 
 ### 支持向量机的PR曲线
-<img src="/Hundred-refining-into-Immortals/research/ml/svm_pr.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/svm_pr.png">
 
 ## 基于神经网络的模型结果分析
 ### 隐藏层节点和层数
@@ -69,17 +124,47 @@ pip3 install -U scikit-learn # 这是3.+版本的安装命令
 在隐藏层只有一层的时候，我们的精度无论如何训练精度都不高
 在隐藏层达到两层后，随着隐藏层节点数的增加，都能达到一个不错的精度
 一般在节点数达到64之后，再增加节点数精度就几乎不再增加了
-<img src="/Hundred-refining-into-Immortals/research/ml/net.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/net.jpg">
 
 ### 神经网络的混淆矩阵
-<img src="/Hundred-refining-into-Immortals/research/ml/nn_confusion.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/nn_confusion.jpg">
 
 ### 神经网络的ROC曲线
-<img src="/Hundred-refining-into-Immortals/research/ml/net_roc1.jpg">
-<img src="/Hundred-refining-into-Immortals/research/ml/net_roc2.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/net_roc1.png">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/net_roc2.png">
 
 ### 神经网络的PR曲线
-<img src="/Hundred-refining-into-Immortals/research/ml/nn_pr.jpg">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/nn_pr.png">
 
 ## 三个模型和传统解调的对比分析
 ### 三个模型和传统解调不同信噪比的星座的实验对比图
@@ -89,13 +174,26 @@ pip3 install -U scikit-learn # 这是3.+版本的安装命令
   - 神经网络次之，决策树算法效果最差
   - 达到训练数据的信噪比时，四者的精确度一样
   - 也就是说支持向量机的鲁棒性最好
-<img src="/Hundred-refining-into-Immortals/research/ml/ml-snr.png">
+  
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/ml-snr.png">
 
 ### 三个模型和传统解调所消耗时间的实验对比图
 - 从解调时间来看
   - 三个模型的解调时间都比传统解调所消耗的时间要短
   - 之外，决策树耗时最短，神经网络次之，支持向量机最长
-<img src="/Hundred-refining-into-Immortals/research/ml/ml-time.png">
+<img style="
+          width:50%;
+          height:50%;
+          position:relative;
+          left:25%;
+        "
+      src="/Hundred-refining-into-Immortals/research/ml/ml-time.png">
 
 ### 总结
 - 支持向量机的精确度虽然是最理想的，但是消耗时间是三个模型中最长的。

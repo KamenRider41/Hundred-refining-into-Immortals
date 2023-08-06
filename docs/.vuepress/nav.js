@@ -2,13 +2,13 @@
  * @Author: 41
  * @Date: 2022-06-05 16:38:13
  * @LastEditors: 41
- * @LastEditTime: 2023-04-02 19:53:52
+ * @LastEditTime: 2023-06-18 23:05:36
  * @Description: 
  */
 const beforeWork = [
-  // {
-  //   text: '科研成果记录', link: '/partDocs/worklog/before/research/research'
-  // },
+  {
+    text: '科研成果记录', link: '/partDocs/worklog/before/research/research'
+  },
   {
     text: 'css权威指南读书笔记', link: '/partDocs/worklog/before/css'
   },
