@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>高级篇 | 前端基础百炼成仙</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/Hundred-refining-into-Immortals/logo.jpg">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/Hundred-refining-into-Immortals/assets/css/0.styles.5bd8dc3d.css" as="style"><link rel="preload" href="/Hundred-refining-into-Immortals/assets/js/app.da1455f9.js" as="script"><link rel="preload" href="/Hundred-refining-into-Immortals/assets/js/2.75968125.js" as="script"><link rel="preload" href="/Hundred-refining-into-Immortals/assets/js/37.790d5a3c.js" as="script"><link rel="preload" href="/Hundred-refining-into-Immortals/assets/js/10.87460a67.js" as="script"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/11.a8a97867.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/12.3c120ecd.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/13.1b9dd9b1.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/14.18f5eb3b.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/15.67688b32.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/16.e3f3a28c.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/17.2a222e0e.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/18.b45aec24.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/19.a8ced1a4.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/20.80b86273.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/21.1202dbdf.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/22.fd12c5bb.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/23.70bd34a4.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/24.3039c124.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/25.51ff4fd6.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/26.504ec63f.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/27.b828db12.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/28.f4be1181.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/29.fa0841f4.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/3.6aa9ba9a.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/30.cb2100b2.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/31.d0afc589.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/32.9ff2cb3e.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/33.38a861a2.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/34.307ad15f.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/35.1349e407.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/36.c34298fe.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/38.84a8e6e0.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/39.f2e6082d.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/4.19449fff.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/40.bedb0ca4.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/41.cb1ada15.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/42.0cfe506c.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/43.8b7feacc.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/44.2627a6b6.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/45.324c06b4.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/46.66f94539.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/47.b144fec6.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/48.1a180565.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/49.ddb31aeb.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/5.a9dd5540.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/50.3912e2c1.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/51.22755c00.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/52.568c62bd.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/53.03eeeaca.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/54.65603fb1.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/55.3c860a1a.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/56.dcac6e09.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/57.81245aa6.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/58.3548b3fc.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/59.b70ff938.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/6.c4ef703b.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/60.54959e8e.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/61.9574d37d.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/62.50ad37e7.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/63.5e509b76.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/64.fc588507.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/65.afdde58c.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/66.c1bcbe18.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/67.db82fdee.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/68.547c6b01.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/69.5485b583.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/7.7751eb02.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/70.e79e045a.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/71.a5ebd2c8.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/72.a10449b6.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/73.2714a3ec.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/74.9481b170.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/75.0e058528.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/76.a7a0fb7c.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/77.76e4da6b.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/78.75f15171.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/79.93be61e7.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/8.d6a9de4c.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/80.0739cadd.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/81.830b16ef.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/82.2f099d2f.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/83.1c599310.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/84.3d2255cd.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/85.bc5752c4.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/86.302df6fc.js"><link rel="prefetch" href="/Hundred-refining-into-Immortals/assets/js/9.97ce9281.js">
+    <link rel="stylesheet" href="/Hundred-refining-into-Immortals/assets/css/0.styles.5bd8dc3d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Hundred-refining-into-Immortals/" class="home-link router-link-active"><img src="/Hundred-refining-into-Immortals/logo.jpg" alt="前端基础百炼成仙" class="logo"> <span class="site-name can-hide">前端基础百炼成仙</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Hundred-refining-into-Immortals/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/Hundred-refining-into-Immortals/partDocs/leetcode.html" class="nav-link">
+  LeetCode
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端知识点" class="dropdown-title"><span class="title">前端知识点</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端知识点" class="mobile-dropdown-title"><span class="title">前端知识点</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端三项之力
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/html/html.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/css/css.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/javascript/javascript.html" class="nav-link">
+  Javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          前端两大框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/vue/vue.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/react/react.html" class="nav-link">
+  React
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="实习笔记" class="dropdown-title"><span class="title">实习笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="实习笔记" class="mobile-dropdown-title"><span class="title">实习笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/internship/internship.html" class="nav-link">
+  写在前面
+</a></li><li class="dropdown-item"><h4>
+          乱七八糟的学习
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/charles.html" class="nav-link">
+  Charles学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/peizhi.html" class="nav-link">
+  Git学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/typescript/type.html" class="nav-link">
+  TypeScript学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/react/react.html" class="nav-link">
+  React学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/flutter/flutter.html" class="nav-link">
+  Flutter学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/prosemirror/prosemirror.html" class="nav-link">
+  ProseMirror学习
+</a></li></ul></li><li class="dropdown-item"><h4>
+          乱七八糟的笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/bootcamp.html" class="nav-link">
+  Bootcamp学习笔记
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/vscode.html" class="nav-link">
+  vscode好用插件
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/question.html" class="nav-link">
+  实习提问
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/bug/bug.html" class="nav-link">
+  Bug回忆录
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工作日志" class="dropdown-title"><span class="title">工作日志</span> <span class="arrow down"></span></button> <button type="button" aria-label="工作日志" class="mobile-dropdown-title"><span class="title">工作日志</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/worklog/worklog.html" class="nav-link">
+  写在前面
+</a></li><li class="dropdown-item"><h4>
+          正式工作前
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/worklog/before/research/research.html" class="nav-link">
+  科研成果记录
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/worklog/before/css.html" class="nav-link">
+  css权威指南读书笔记
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于我" class="dropdown-title"><span class="title">关于我</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于我" class="mobile-dropdown-title"><span class="title">关于我</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/aboutme/aboutme.html" class="nav-link">
+  关于我
+</a></li><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/aboutme/biography.html" class="nav-link">
+  本科个人传记
+</a></li><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/aboutme/thanks.html" class="nav-link">
+  硕士毕业致谢
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/KamenRider41" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/qq_42136832" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  CSDN
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1108753576635751/posts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://space.bilibili.com/27424293" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  B站
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Hundred-refining-into-Immortals/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/Hundred-refining-into-Immortals/partDocs/leetcode.html" class="nav-link">
+  LeetCode
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端知识点" class="dropdown-title"><span class="title">前端知识点</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端知识点" class="mobile-dropdown-title"><span class="title">前端知识点</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端三项之力
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/html/html.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/css/css.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/javascript/javascript.html" class="nav-link">
+  Javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          前端两大框架
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/vue/vue.html" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/react/react.html" class="nav-link">
+  React
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="实习笔记" class="dropdown-title"><span class="title">实习笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="实习笔记" class="mobile-dropdown-title"><span class="title">实习笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/internship/internship.html" class="nav-link">
+  写在前面
+</a></li><li class="dropdown-item"><h4>
+          乱七八糟的学习
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/charles.html" class="nav-link">
+  Charles学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/peizhi.html" class="nav-link">
+  Git学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/typescript/type.html" class="nav-link">
+  TypeScript学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/react/react.html" class="nav-link">
+  React学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/flutter/flutter.html" class="nav-link">
+  Flutter学习
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/prosemirror/prosemirror.html" class="nav-link">
+  ProseMirror学习
+</a></li></ul></li><li class="dropdown-item"><h4>
+          乱七八糟的笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/bootcamp.html" class="nav-link">
+  Bootcamp学习笔记
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/vscode.html" class="nav-link">
+  vscode好用插件
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/question.html" class="nav-link">
+  实习提问
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/internship/write/bug/bug.html" class="nav-link">
+  Bug回忆录
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工作日志" class="dropdown-title"><span class="title">工作日志</span> <span class="arrow down"></span></button> <button type="button" aria-label="工作日志" class="mobile-dropdown-title"><span class="title">工作日志</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/worklog/worklog.html" class="nav-link">
+  写在前面
+</a></li><li class="dropdown-item"><h4>
+          正式工作前
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/worklog/before/research/research.html" class="nav-link">
+  科研成果记录
+</a></li><li class="dropdown-subitem"><a href="/Hundred-refining-into-Immortals/partDocs/worklog/before/css.html" class="nav-link">
+  css权威指南读书笔记
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于我" class="dropdown-title"><span class="title">关于我</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于我" class="mobile-dropdown-title"><span class="title">关于我</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/aboutme/aboutme.html" class="nav-link">
+  关于我
+</a></li><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/aboutme/biography.html" class="nav-link">
+  本科个人传记
+</a></li><li class="dropdown-item"><!----> <a href="/Hundred-refining-into-Immortals/partDocs/aboutme/thanks.html" class="nav-link">
+  硕士毕业致谢
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/KamenRider41" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/qq_42136832" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  CSDN
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1108753576635751/posts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://space.bilibili.com/27424293" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  B站
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>实习笔记</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/internship.html" class="sidebar-link">写在前面</a></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>乱七八糟的学习</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/charles.html" class="sidebar-link">Charles学习</a></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><p class="sidebar-heading open"><span>Git学习</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/peizhi.html" class="sidebar-link">Git配置</a></li><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/ziliao.html" class="sidebar-link">Git资料</a></li><li><section class="sidebar-group collapsable is-sub-group depth-3"><p class="sidebar-heading open"><span>Git主要</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/jichu.html" class="sidebar-link">基础篇</a></li><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/gaoji.html" aria-current="page" class="active sidebar-link">高级篇</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/gaoji.html#第一关-head" class="sidebar-link">第一关 HEAD</a></li><li class="sidebar-sub-header"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/gaoji.html#第二关" class="sidebar-link">第二关 ^</a></li><li class="sidebar-sub-header"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/gaoji.html#第三关" class="sidebar-link">第三关 ~</a></li><li class="sidebar-sub-header"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/gaoji.html#第四关-reset-vert" class="sidebar-link">第四关 reset/vert</a></li></ul></li><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/yidong.html" class="sidebar-link">移动提交记录</a></li><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/zaxiang.html" class="sidebar-link">杂项</a></li><li><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/huati.html" class="sidebar-link">高级话题</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-3"><p class="sidebar-heading"><span>Git远程</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><p class="sidebar-heading"><span>TypeScript学习</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><p class="sidebar-heading"><span>React学习</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><p class="sidebar-heading"><span>Flutter学习</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-2"><p class="sidebar-heading"><span>ProseMirror学习</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>乱七八糟的笔记</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="高级篇"><a href="#高级篇" class="header-anchor">#</a> 高级篇</h1> <p></p><div class="table-of-contents"><ul><li><a href="#第一关-head">第一关 HEAD</a></li><li><a href="#第二关">第二关 ^</a></li><li><a href="#第三关">第三关 ~</a></li><li><a href="#第四关-reset-vert">第四关 reset/vert</a></li></ul></div><p></p> <h2 id="第一关-head"><a href="#第一关-head" class="header-anchor">#</a> 第一关 HEAD</h2> <p><strong>移动</strong></p> <hr> <p>指向<code>C4</code>提交记录</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> checkout C4
+</code></pre></div><h2 id="第二关"><a href="#第二关" class="header-anchor">#</a> 第二关 ^</h2> <p><strong>相对引用</strong>
+通过<code>git log</code>查看提交记录的哈希值，但这个不方便，所以有
+<code>bugFix^</code> 表示<code>bugFix</code>前面一个节点</p> <hr> <p><code>HEAD</code>切换到<code>bugFix</code>的父节点</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> checkout bugFix^
+</code></pre></div><h2 id="第三关"><a href="#第三关" class="header-anchor">#</a> 第三关 ~</h2> <p><strong>相对引用</strong> <code>bugFix~2</code> 表示<code>bugFix</code>前面两个节点
+<code>-f</code> 容许我们将分支强制移动到那个位置。
+<code>git branch -f main HEAD~3</code>将<code>main</code>分支强制指向<code>HEAD</code>的第3级父提交</p> <hr> <p>移动<code>HEAD</code>，<code>main</code>,<code>bugFix</code>到目标位置</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> branch -f bugFix HEAD~2
+<span class="token function">git</span> branch -f main C6
+<span class="token function">git</span> checkout HEAD^
+</code></pre></div><h2 id="第四关-reset-vert"><a href="#第四关-reset-vert" class="header-anchor">#</a> 第四关 reset/vert</h2> <p><strong>撤销变更</strong></p> <hr> <p>任务:</p> <ul><li>1.分别撤销<code>local</code>和<code>pushed</code>分支上最近一次提交</li> <li>2.<code>pushed</code>是远程分支，<code>local</code>是本地分支</li></ul> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> reset HEAD^
+<span class="token function">git</span> checkout pushed
+<span class="token function">git</span> revert HEAD
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">lastUpdate:</span> <span class="time">4/2/2023, 8:18:35 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/jichu.html" class="prev">
+        基础篇
+      </a></span> <span class="next"><a href="/Hundred-refining-into-Immortals/partDocs/internship/study/git/main/yidong.html">
+        移动提交记录
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/Hundred-refining-into-Immortals/assets/js/app.da1455f9.js" defer></script><script src="/Hundred-refining-into-Immortals/assets/js/2.75968125.js" defer></script><script src="/Hundred-refining-into-Immortals/assets/js/37.790d5a3c.js" defer></script><script src="/Hundred-refining-into-Immortals/assets/js/10.87460a67.js" defer></script>
+  </body>
+</html>
